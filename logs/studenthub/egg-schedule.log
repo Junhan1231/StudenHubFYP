@@ -1,0 +1,132 @@
+2024-11-27 16:19:26,580 INFO 56792 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 43833423ms at 2024-11-28 04:30:00.003
+2024-11-27 16:19:26,581 INFO 56792 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 27633420ms at 2024-11-28 00:00:00.001
+2024-11-27 16:19:26,581 INFO 56792 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 27634419ms at 2024-11-28 00:00:01.000
+2024-11-27 16:19:26,418 INFO 56794 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2024-11-27 16:19:26,418 INFO 56794 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js
+2024-11-27 16:19:26,418 INFO 56794 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2024-11-27 16:34:25,185 INFO 60981 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2024-11-27 16:34:25,185 INFO 60981 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js
+2024-11-27 16:34:25,186 INFO 60981 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2024-11-27 16:34:25,406 INFO 60964 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 42934597ms at 2024-11-28 04:30:00.003
+2024-11-27 16:34:25,407 INFO 60964 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 26734594ms at 2024-11-28 00:00:00.001
+2024-11-27 16:34:25,412 INFO 60964 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 26735592ms at 2024-11-28 00:00:01.004
+2024-11-27 16:44:20,811 INFO 63345 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2024-11-27 16:44:20,811 INFO 63345 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js
+2024-11-27 16:44:20,811 INFO 63345 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2024-11-27 16:44:57,072 INFO 63533 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2024-11-27 16:44:57,072 INFO 63533 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js
+2024-11-27 16:44:57,072 INFO 63533 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2024-11-27 16:44:57,453 INFO 63513 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 42302550ms at 2024-11-28 04:30:00.002
+2024-11-27 16:44:57,454 INFO 63513 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 26102547ms at 2024-11-28 00:00:00.001
+2024-11-27 16:44:57,454 INFO 63513 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 26103546ms at 2024-11-28 00:00:01.000
+2024-11-27 16:47:55,783 INFO 64322 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2024-11-27 16:47:55,783 INFO 64322 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js
+2024-11-27 16:47:55,783 INFO 64322 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2024-11-27 16:47:55,994 INFO 64303 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 42124009ms at 2024-11-28 04:30:00.003
+2024-11-27 16:47:55,994 INFO 64303 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 25924006ms at 2024-11-28 00:00:00.000
+2024-11-27 16:47:55,995 INFO 64303 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 25925006ms at 2024-11-28 00:00:01.001
+2024-11-27 16:51:17,475 INFO 65098 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2024-11-27 16:51:17,475 INFO 65098 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js
+2024-11-27 16:51:17,475 INFO 65098 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2024-11-27 16:52:55,919 INFO 65569 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 41824084ms at 2024-11-28 04:30:00.003
+2024-11-27 16:52:55,919 INFO 65569 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 25624081ms at 2024-11-28 00:00:00.000
+2024-11-27 16:52:55,920 INFO 65569 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 25625081ms at 2024-11-28 00:00:01.001
+2024-11-27 16:52:55,721 INFO 65586 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2024-11-27 16:52:55,721 INFO 65586 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js
+2024-11-27 16:52:55,721 INFO 65586 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2024-11-27 16:57:02,752 INFO 66538 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2024-11-27 16:57:02,752 INFO 66538 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js
+2024-11-27 16:57:02,752 INFO 66538 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2024-11-27 16:57:32,816 INFO 66754 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 41547187ms at 2024-11-28 04:30:00.003
+2024-11-27 16:57:32,817 INFO 66754 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 25347183ms at 2024-11-28 00:00:00.000
+2024-11-27 16:57:32,818 INFO 66754 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 25348183ms at 2024-11-28 00:00:01.001
+2024-11-27 16:57:32,549 INFO 66763 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2024-11-27 16:57:32,549 INFO 66763 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js
+2024-11-27 16:57:32,550 INFO 66763 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2024-11-27 16:59:35,972 INFO 67288 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 41424032ms at 2024-11-28 04:30:00.003
+2024-11-27 16:59:35,972 INFO 67288 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 25224028ms at 2024-11-28 00:00:00.000
+2024-11-27 16:59:35,972 INFO 67288 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 25225028ms at 2024-11-28 00:00:01.000
+2024-11-27 16:59:35,731 INFO 67307 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2024-11-27 16:59:35,731 INFO 67307 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js
+2024-11-27 16:59:35,731 INFO 67307 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2024-11-27 17:05:52,835 INFO 69198 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2024-11-27 17:05:52,835 INFO 69198 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js
+2024-11-27 17:05:52,835 INFO 69198 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2024-11-27 17:05:53,048 INFO 69179 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 41046955ms at 2024-11-28 04:30:00.002
+2024-11-27 17:05:53,048 INFO 69179 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 24846952ms at 2024-11-28 00:00:00.000
+2024-11-27 17:05:53,049 INFO 69179 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 24847951ms at 2024-11-28 00:00:01.000
+2024-11-27 17:08:26,009 INFO 69788 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2024-11-27 17:08:26,009 INFO 69788 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js
+2024-11-27 17:08:26,009 INFO 69788 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2024-11-27 17:08:55,393 INFO 69944 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 40864610ms at 2024-11-28 04:30:00.003
+2024-11-27 17:08:55,393 INFO 69944 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 24664607ms at 2024-11-28 00:00:00.000
+2024-11-27 17:08:55,394 INFO 69944 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 24665607ms at 2024-11-28 00:00:01.001
+2024-11-27 17:08:55,177 INFO 69980 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2024-11-27 17:08:55,177 INFO 69980 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js
+2024-11-27 17:08:55,177 INFO 69980 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2024-11-27 17:10:52,055 INFO 70439 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2024-11-27 17:10:52,055 INFO 70439 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js
+2024-11-27 17:10:52,055 INFO 70439 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2024-11-27 17:12:07,406 INFO 70738 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2024-11-27 17:12:07,406 INFO 70738 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js
+2024-11-27 17:12:07,406 INFO 70738 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2024-11-27 17:12:32,370 INFO 70864 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 40647633ms at 2024-11-28 04:30:00.003
+2024-11-27 17:12:32,371 INFO 70864 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 24447629ms at 2024-11-28 00:00:00.000
+2024-11-27 17:12:32,371 INFO 70864 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 24448629ms at 2024-11-28 00:00:01.000
+2024-11-27 17:12:32,168 INFO 70884 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2024-11-27 17:12:32,168 INFO 70884 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js
+2024-11-27 17:12:32,168 INFO 70884 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2024-11-27 17:14:40,349 INFO 71728 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 40519654ms at 2024-11-28 04:30:00.003
+2024-11-27 17:14:40,349 INFO 71728 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 24319651ms at 2024-11-28 00:00:00.000
+2024-11-27 17:14:40,350 INFO 71728 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 24320650ms at 2024-11-28 00:00:01.000
+2024-11-27 17:14:39,997 INFO 71757 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2024-11-27 17:14:39,997 INFO 71757 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js
+2024-11-27 17:14:39,997 INFO 71757 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2024-11-27 17:26:26,660 INFO 74596 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 39813358ms at 2024-11-28 04:30:00.018
+2024-11-27 17:26:26,661 INFO 74596 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 23613340ms at 2024-11-28 00:00:00.001
+2024-11-27 17:26:26,661 INFO 74596 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 23614339ms at 2024-11-28 00:00:01.000
+2024-11-27 17:26:26,398 INFO 74624 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2024-11-27 17:26:26,398 INFO 74624 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js
+2024-11-27 17:26:26,398 INFO 74624 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2024-11-27 17:27:30,515 INFO 74887 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2024-11-27 17:27:30,515 INFO 74887 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js
+2024-11-27 17:27:30,515 INFO 74887 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2024-11-27 17:27:57,813 INFO 75049 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2024-11-27 17:27:57,813 INFO 75049 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js
+2024-11-27 17:27:57,813 INFO 75049 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2024-11-27 17:27:57,989 INFO 75038 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 39722015ms at 2024-11-28 04:30:00.003
+2024-11-27 17:27:57,989 INFO 75038 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 23522011ms at 2024-11-28 00:00:00.000
+2024-11-27 17:27:57,989 INFO 75038 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 23523011ms at 2024-11-28 00:00:01.000
+2024-11-27 17:36:57,815 INFO 77425 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2024-11-27 17:36:57,816 INFO 77425 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js
+2024-11-27 17:36:57,816 INFO 77425 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2024-11-27 17:36:58,040 INFO 77406 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 39181964ms at 2024-11-28 04:30:00.004
+2024-11-27 17:36:58,041 INFO 77406 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 22981960ms at 2024-11-28 00:00:00.001
+2024-11-27 17:36:58,041 INFO 77406 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22982959ms at 2024-11-28 00:00:01.000
+2024-11-27 17:38:45,332 INFO 77835 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2024-11-27 17:38:45,332 INFO 77835 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js
+2024-11-27 17:38:45,332 INFO 77835 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2024-11-27 17:39:16,595 INFO 78037 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 39043408ms at 2024-11-28 04:30:00.002
+2024-11-27 17:39:16,595 INFO 78037 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 22843405ms at 2024-11-28 00:00:00.000
+2024-11-27 17:39:16,596 INFO 78037 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22844405ms at 2024-11-28 00:00:01.001
+2024-11-27 17:39:16,391 INFO 78049 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2024-11-27 17:39:16,391 INFO 78049 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js
+2024-11-27 17:39:16,391 INFO 78049 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2024-11-27 17:41:27,228 INFO 78948 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2024-11-27 17:41:27,228 INFO 78948 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js
+2024-11-27 17:41:27,228 INFO 78948 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2024-11-27 17:41:27,441 INFO 78928 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 38912562ms at 2024-11-28 04:30:00.003
+2024-11-27 17:41:27,441 INFO 78928 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 22712559ms at 2024-11-28 00:00:00.000
+2024-11-27 17:41:27,442 INFO 78928 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22713559ms at 2024-11-28 00:00:01.001
+2024-11-27 17:52:25,451 INFO 81555 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2024-11-27 17:52:25,451 INFO 81555 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js
+2024-11-27 17:52:25,451 INFO 81555 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2024-11-27 17:52:25,692 INFO 81535 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 38254311ms at 2024-11-28 04:30:00.003
+2024-11-27 17:52:25,692 INFO 81535 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 22054308ms at 2024-11-28 00:00:00.000
+2024-11-27 17:52:25,693 INFO 81535 [Timer] /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22055308ms at 2024-11-28 00:00:01.001
+2024-11-27 17:55:27,803 INFO 82273 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2024-11-27 17:55:27,803 INFO 82273 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js
+2024-11-27 17:55:27,803 INFO 82273 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2024-11-27 17:55:33,735 INFO 82314 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2024-11-27 17:55:33,735 INFO 82314 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/clean_log.js
+2024-11-27 17:55:33,735 INFO 82314 [egg-schedule]: register schedule /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

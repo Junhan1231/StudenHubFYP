@@ -1,0 +1,60 @@
+2024-11-27 16:22:33,274 ERROR 56794 [-/127.0.0.1/-/53ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/lib/application.js:285:15)
+    at Object.get cookies [as cookies] (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/app/extend/context.js:23:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/app/extend/context.js:93:35)
+    at Object.ensureCsrfSecret (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/app/extend/context.js:106:13)
+    at csrf (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/lib/middlewares/csrf.js:13:11)
+    at dispatch (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 56794
+hostname: JunhandeMacBook-Pro.local
+
+2024-11-27 16:23:09,931 ERROR 56794 [-/127.0.0.1/-/2ms GET /user/login] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/lib/application.js:285:15)
+    at Object.get cookies [as cookies] (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/app/extend/context.js:23:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/app/extend/context.js:93:35)
+    at Object.ensureCsrfSecret (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/app/extend/context.js:106:13)
+    at csrf (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/lib/middlewares/csrf.js:13:11)
+    at dispatch (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 56794
+hostname: JunhandeMacBook-Pro.local
+
+2024-11-27 16:25:21,573 ERROR 56794 [-/127.0.0.1/-/3ms GET /user/login?name=JunhanDang&pwd=123456] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/lib/application.js:285:15)
+    at Object.get cookies [as cookies] (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/app/extend/context.js:23:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/app/extend/context.js:93:35)
+    at Object.ensureCsrfSecret (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/app/extend/context.js:106:13)
+    at csrf (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/lib/middlewares/csrf.js:13:11)
+    at dispatch (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 56794
+hostname: JunhandeMacBook-Pro.local
+
+2024-11-27 16:25:57,739 ERROR 56794 [-/127.0.0.1/-/1ms GET /user/login?name=JunhanDang&pwd=123456] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/lib/application.js:285:15)
+    at Object.get cookies [as cookies] (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/app/extend/context.js:23:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/app/extend/context.js:93:35)
+    at Object.ensureCsrfSecret (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/app/extend/context.js:106:13)
+    at csrf (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/lib/middlewares/csrf.js:13:11)
+    at dispatch (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 56794
+hostname: JunhandeMacBook-Pro.local
+

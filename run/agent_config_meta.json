@@ -1,0 +1,308 @@
+{
+  "keys": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config/config.default.ts",
+  "security": {
+    "csrf": {
+      "enable": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config/config.default.ts",
+      "type": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js",
+      "rotateWhenInvalid": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js",
+      "supportedRequests": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js",
+      "cookieOptions": {
+        "signed": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js"
+      }
+    },
+    "domainWhiteList": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js",
+      "hostnameExceptionList": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "logger": {
+    "level": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config/config.default.ts",
+    "dir": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "env": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "enablePerformanceTimer": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "enableFastContextLogger": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js"
+  },
+  "host": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config/config.default.ts",
+  "port": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config/config.default.ts",
+  "session": {
+    "maxAge": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-session/config/config.default.js",
+    "logValue": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/config/config.default.js",
+    "defaultParamCharset": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+  "name": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "version": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "main": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "start": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "android": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "ios": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "web": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "dev": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "build": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "@eggjs/tegg": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "@react-navigation/bottom-tabs": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "@react-navigation/native": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "@react-navigation/stack": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "axios": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "egg": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "expo": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "expo-cli": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "expo-status-bar": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "react": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "react-native": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "react-native-gesture-handler": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "react-native-get-random-values": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "react-native-reanimated": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "react-native-safe-area-context": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "react-native-screens": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "react-navigation-stack": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "@babel/core": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "@types/react": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "@types/react-native": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "typescript": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js"
+    },
+    "private": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "timing": {
+      "slowBootActionMinDuration": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js"
+    }
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "cacheControl": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "strict": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "depth": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js"
+    },
+    "useHttpClientNext": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js"
+  },
+  "meta": {
+    "enable": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "logging": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "port": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/node_modules/egg/config/config.default.js"
+}

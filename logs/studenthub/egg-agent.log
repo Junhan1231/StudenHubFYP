@@ -1,0 +1,1160 @@
+2024-11-27 16:19:25,209 INFO 56792 [egg:logger] init all loggers with options: {"dir":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/logs/studenthub","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"studenthub-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-11-27 16:19:25,220 INFO 56792 [egg:core] dump config after load, 5ms
+2024-11-27 16:19:25,277 INFO 56792 [egg-watcher] Start watching: ["/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"]
+2024-11-27 16:19:25,277 INFO 56792 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app"
+2024-11-27 16:19:25,277 INFO 56792 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config"
+2024-11-27 16:19:25,277 INFO 56792 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks"
+2024-11-27 16:19:25,277 INFO 56792 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy"
+2024-11-27 16:19:25,277 INFO 56792 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"
+2024-11-27 16:19:25,278 INFO 56792 [egg-watcher:agent] watcher start success
+2024-11-27 16:19:25,290 INFO 56792 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [696ms] - #0 Process Start
+                                     ▇▇▇▇▇▇▇▇▇▇▇▇ [236ms] - #1 Application Start
+                                     ▇ [7ms] - #2 Load Plugin
+                                      ▇ [12ms] - #3 Load Config
+                                      ▇ [0ms] - #4 Require(0) node_modules/egg-session/config/config.default.js
+                                      ▇ [0ms] - #5 Require(1) node_modules/egg-security/config/config.default.js
+                                      ▇ [0ms] - #6 Require(2) node_modules/egg-jsonp/config/config.default.js
+                                      ▇ [0ms] - #7 Require(3) node_modules/egg-onerror/config/config.default.js
+                                      ▇ [1ms] - #8 Require(4) node_modules/egg-i18n/config/config.default.js
+                                      ▇ [0ms] - #9 Require(5) node_modules/egg-watcher/config/config.default.js
+                                      ▇ [0ms] - #10 Require(6) node_modules/egg-schedule/config/config.default.js
+                                      ▇ [0ms] - #11 Require(7) node_modules/egg-multipart/config/config.default.js
+                                      ▇ [0ms] - #12 Require(8) node_modules/egg-development/config/config.default.js
+                                      ▇ [0ms] - #13 Require(9) node_modules/egg-logrotator/config/config.default.js
+                                      ▇ [0ms] - #14 Require(10) node_modules/egg-static/config/config.default.js
+                                      ▇ [0ms] - #15 Require(11) node_modules/egg-view/config/config.default.js
+                                      ▇ [0ms] - #16 Require(12) node_modules/egg/config/config.default.js
+                                      ▇ [0ms] - #17 Require(13) node_modules/egg-security/config/config.local.js
+                                      ▇ [1ms] - #18 Require(14) node_modules/egg-watcher/config/config.local.js
+                                      ▇ [0ms] - #19 Require(15) node_modules/egg-view/config/config.local.js
+                                      ▇ [0ms] - #20 Require(16) node_modules/egg/config/config.local.js
+                                      ▇▇▇ [60ms] - #21 Load extend/agent.js
+                                      ▇ [3ms] - #22 Require(17) node_modules/egg-security/app/extend/agent.js
+                                      ▇▇ [51ms] - #23 Require(18) node_modules/egg-schedule/app/extend/agent.js
+                                         ▇ [2ms] - #24 Require(19) node_modules/egg-logrotator/app/extend/agent.js
+                                         ▇▇ [41ms] - #25 Load extend/context.js
+                                         ▇ [12ms] - #26 Require(20) node_modules/egg-security/app/extend/context.js
+                                          ▇ [3ms] - #27 Require(21) node_modules/egg-jsonp/app/extend/context.js
+                                          ▇ [0ms] - #28 Require(22) node_modules/egg-i18n/app/extend/context.js
+                                          ▇ [19ms] - #29 Require(23) node_modules/egg-multipart/app/extend/context.js
+                                           ▇ [2ms] - #30 Require(24) node_modules/egg-view/app/extend/context.js
+                                           ▇ [1ms] - #31 Require(25) node_modules/egg/app/extend/context.js
+                                            ▇ [26ms] - #32 Load agent.js
+                                            ▇ [1ms] - #33 Require(26) node_modules/egg-security/agent.js
+                                            ▇ [0ms] - #34 Require(27) node_modules/egg-onerror/agent.js
+                                            ▇ [8ms] - #35 Require(28) node_modules/egg-watcher/agent.js
+                                            ▇ [2ms] - #36 Require(29) node_modules/egg-schedule/agent.js
+                                            ▇ [11ms] - #37 Require(30) node_modules/egg-development/agent.js
+                                             ▇ [1ms] - #38 Require(31) node_modules/egg-logrotator/agent.js
+                                             ▇ [1ms] - #39 Require(32) node_modules/egg/agent.js
+                                             ▇▇▇ [65ms] - #40 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                              ▇▇ [47ms] - #41 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                              ▇▇▇ [65ms] - #42 Before Start in node_modules/egg-development/agent.js:8:9
+2024-11-27 16:19:25,290 INFO 56792 [egg:core] dump config after ready, 5ms
+2024-11-27 16:34:20,193 INFO 60964 [egg:logger] init all loggers with options: {"dir":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/logs/studenthub","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"studenthub-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-11-27 16:34:20,201 INFO 60964 [egg:core] dump config after load, 4ms
+2024-11-27 16:34:20,249 INFO 60964 [egg-watcher] Start watching: ["/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"]
+2024-11-27 16:34:20,249 INFO 60964 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app"
+2024-11-27 16:34:20,250 INFO 60964 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config"
+2024-11-27 16:34:20,250 INFO 60964 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks"
+2024-11-27 16:34:20,250 INFO 60964 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy"
+2024-11-27 16:34:20,250 INFO 60964 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"
+2024-11-27 16:34:20,250 INFO 60964 [egg-watcher:agent] watcher start success
+2024-11-27 16:34:20,270 INFO 60964 egg start timeline:
+▇▇▇▇▇▇▇▇▇ [710ms] - #0 Process Start
+         ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2896ms] - #1 Application Start
+         ▇ [7ms] - #2 Load Plugin
+          ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2684ms] - #3 Load Config
+          ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2670ms] - #4 Require(0) config/config.default.ts
+                                               ▇ [0ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                               ▇ [0ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                               ▇ [0ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                               ▇ [1ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                               ▇ [0ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                               ▇ [1ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                               ▇ [0ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                               ▇ [0ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                               ▇ [0ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                               ▇ [0ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                               ▇ [0ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                               ▇ [0ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                               ▇ [1ms] - #17 Require(13) node_modules/egg/config/config.default.js
+                                               ▇ [0ms] - #18 Require(14) config/config.default.ts
+                                               ▇ [1ms] - #19 Require(15) node_modules/egg-security/config/config.local.js
+                                               ▇ [0ms] - #20 Require(16) node_modules/egg-watcher/config/config.local.js
+                                               ▇ [0ms] - #21 Require(17) node_modules/egg-view/config/config.local.js
+                                               ▇ [1ms] - #22 Require(18) node_modules/egg/config/config.local.js
+                                               ▇ [55ms] - #23 Load extend/agent.js
+                                               ▇ [3ms] - #24 Require(19) node_modules/egg-security/app/extend/agent.js
+                                               ▇ [48ms] - #25 Require(20) node_modules/egg-schedule/app/extend/agent.js
+                                               ▇ [2ms] - #26 Require(21) node_modules/egg-logrotator/app/extend/agent.js
+                                                ▇ [39ms] - #27 Load extend/context.js
+                                                ▇ [12ms] - #28 Require(22) node_modules/egg-security/app/extend/context.js
+                                                ▇ [3ms] - #29 Require(23) node_modules/egg-jsonp/app/extend/context.js
+                                                ▇ [1ms] - #30 Require(24) node_modules/egg-i18n/app/extend/context.js
+                                                ▇ [18ms] - #31 Require(25) node_modules/egg-multipart/app/extend/context.js
+                                                ▇ [2ms] - #32 Require(26) node_modules/egg-view/app/extend/context.js
+                                                ▇ [1ms] - #33 Require(27) node_modules/egg/app/extend/context.js
+                                                ▇ [24ms] - #34 Load agent.js
+                                                ▇ [1ms] - #35 Require(28) node_modules/egg-security/agent.js
+                                                ▇ [1ms] - #36 Require(29) node_modules/egg-onerror/agent.js
+                                                ▇ [7ms] - #37 Require(30) node_modules/egg-watcher/agent.js
+                                                ▇ [2ms] - #38 Require(31) node_modules/egg-schedule/agent.js
+                                                ▇ [10ms] - #39 Require(32) node_modules/egg-development/agent.js
+                                                ▇ [0ms] - #40 Require(33) node_modules/egg-logrotator/agent.js
+                                                ▇ [0ms] - #41 Require(34) node_modules/egg/agent.js
+                                                ▇ [56ms] - #42 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                                ▇ [40ms] - #43 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                                ▇ [68ms] - #44 Before Start in node_modules/egg-development/agent.js:8:9
+2024-11-27 16:34:20,270 INFO 60964 [egg:core] dump config after ready, 5ms
+2024-11-27 16:43:10,900 INFO 60964 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app/controller/user.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12888570683,"size":795,"blocks":8,"atimeMs":1732725790869.087,"mtimeMs":1732725790791.2795,"ctimeMs":1732725790791.2795,"birthtimeMs":1732725134332.2922},"remove":false,"isDirectory":false,"isFile":true}
+2024-11-27 16:43:11,103 WARN 60964 [agent:development] reload worker because /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app/controller/user.ts change
+2024-11-27 16:44:14,907 INFO 60964 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app/controller/user.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12888570683,"size":441,"blocks":8,"atimeMs":1732725854874.2554,"mtimeMs":1732725854845.3447,"ctimeMs":1732725854845.3447,"birthtimeMs":1732725134332.2922},"remove":false,"isDirectory":false,"isFile":true}
+2024-11-27 16:44:15,107 WARN 60964 [agent:development] reload worker because /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app/controller/user.ts change
+2024-11-27 16:44:53,009 INFO 63513 [egg:logger] init all loggers with options: {"dir":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/logs/studenthub","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"studenthub-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-11-27 16:44:53,018 INFO 63513 [egg:core] dump config after load, 4ms
+2024-11-27 16:44:53,069 INFO 63513 [egg-watcher] Start watching: ["/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"]
+2024-11-27 16:44:53,069 INFO 63513 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app"
+2024-11-27 16:44:53,069 INFO 63513 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config"
+2024-11-27 16:44:53,069 INFO 63513 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks"
+2024-11-27 16:44:53,069 INFO 63513 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy"
+2024-11-27 16:44:53,070 INFO 63513 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"
+2024-11-27 16:44:53,070 INFO 63513 [egg-watcher:agent] watcher start success
+2024-11-27 16:44:53,091 INFO 63513 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇▇▇ [1009ms] - #0 Process Start
+             ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2837ms] - #1 Application Start
+             ▇ [7ms] - #2 Load Plugin
+             ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2649ms] - #3 Load Config
+             ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2634ms] - #4 Require(0) config/config.default.ts
+                                               ▇ [1ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                               ▇ [1ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                               ▇ [1ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                               ▇ [0ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                               ▇ [1ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                               ▇ [0ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                               ▇ [0ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                               ▇ [1ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                               ▇ [0ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                               ▇ [1ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                               ▇ [0ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                               ▇ [1ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                               ▇ [0ms] - #17 Require(13) node_modules/egg/config/config.default.js
+                                               ▇ [0ms] - #18 Require(14) config/config.default.ts
+                                               ▇ [1ms] - #19 Require(15) node_modules/egg-security/config/config.local.js
+                                               ▇ [0ms] - #20 Require(16) node_modules/egg-watcher/config/config.local.js
+                                               ▇ [0ms] - #21 Require(17) node_modules/egg-view/config/config.local.js
+                                               ▇ [0ms] - #22 Require(18) node_modules/egg/config/config.local.js
+                                               ▇ [49ms] - #23 Load extend/agent.js
+                                               ▇ [2ms] - #24 Require(19) node_modules/egg-security/app/extend/agent.js
+                                               ▇ [45ms] - #25 Require(20) node_modules/egg-schedule/app/extend/agent.js
+                                                ▇ [1ms] - #26 Require(21) node_modules/egg-logrotator/app/extend/agent.js
+                                                ▇ [19ms] - #27 Load extend/context.js
+                                                ▇ [5ms] - #28 Require(22) node_modules/egg-security/app/extend/context.js
+                                                ▇ [1ms] - #29 Require(23) node_modules/egg-jsonp/app/extend/context.js
+                                                ▇ [0ms] - #30 Require(24) node_modules/egg-i18n/app/extend/context.js
+                                                ▇ [8ms] - #31 Require(25) node_modules/egg-multipart/app/extend/context.js
+                                                ▇ [1ms] - #32 Require(26) node_modules/egg-view/app/extend/context.js
+                                                ▇ [1ms] - #33 Require(27) node_modules/egg/app/extend/context.js
+                                                ▇ [27ms] - #34 Load agent.js
+                                                ▇ [1ms] - #35 Require(28) node_modules/egg-security/agent.js
+                                                ▇ [1ms] - #36 Require(29) node_modules/egg-onerror/agent.js
+                                                ▇ [4ms] - #37 Require(30) node_modules/egg-watcher/agent.js
+                                                ▇ [2ms] - #38 Require(31) node_modules/egg-schedule/agent.js
+                                                ▇ [17ms] - #39 Require(32) node_modules/egg-development/agent.js
+                                                ▇ [1ms] - #40 Require(33) node_modules/egg-logrotator/agent.js
+                                                ▇ [1ms] - #41 Require(34) node_modules/egg/agent.js
+                                                 ▇ [58ms] - #42 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                                 ▇ [39ms] - #43 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                                 ▇ [66ms] - #44 Before Start in node_modules/egg-development/agent.js:8:9
+2024-11-27 16:44:53,091 INFO 63513 [egg:core] dump config after ready, 11ms
+2024-11-27 16:47:29,360 WARN 63513 [agent:development] reload worker because /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config/config.default.ts change
+2024-11-27 16:47:29,156 INFO 63513 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config/config.default.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12888570715,"size":448,"blocks":8,"atimeMs":1732726049140.0884,"mtimeMs":1732726049093.8428,"ctimeMs":1732726049093.8428,"birthtimeMs":1732725173652.9866},"remove":false,"isDirectory":false,"isFile":true}
+2024-11-27 16:47:30,154 WARN 63513 [agent:development] reload worker because /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config/config.default.ts change
+2024-11-27 16:47:29,912 INFO 63513 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config/config.default.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12888570715,"size":448,"blocks":8,"atimeMs":1732726049909.7556,"mtimeMs":1732726049891.794,"ctimeMs":1732726049891.794,"birthtimeMs":1732725173652.9866},"remove":false,"isDirectory":false,"isFile":true}
+2024-11-27 16:47:29,953 INFO 63513 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config/config.default.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12888570715,"size":448,"blocks":8,"atimeMs":1732726049909.7556,"mtimeMs":1732726049891.794,"ctimeMs":1732726049891.794,"birthtimeMs":1732725173652.9866},"remove":false,"isDirectory":false,"isFile":true}
+2024-11-27 16:47:51,785 INFO 64303 [egg:logger] init all loggers with options: {"dir":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/logs/studenthub","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"studenthub-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-11-27 16:47:51,793 INFO 64303 [egg:core] dump config after load, 4ms
+2024-11-27 16:47:51,842 INFO 64303 [egg-watcher] Start watching: ["/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"]
+2024-11-27 16:47:51,842 INFO 64303 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app"
+2024-11-27 16:47:51,843 INFO 64303 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config"
+2024-11-27 16:47:51,843 INFO 64303 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks"
+2024-11-27 16:47:51,843 INFO 64303 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy"
+2024-11-27 16:47:51,843 INFO 64303 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"
+2024-11-27 16:47:51,843 INFO 64303 [egg-watcher:agent] watcher start success
+2024-11-27 16:47:51,859 INFO 64303 egg start timeline:
+▇▇▇▇▇▇▇▇▇ [738ms] - #0 Process Start
+         ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [3276ms] - #1 Application Start
+         ▇ [8ms] - #2 Load Plugin
+         ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [3088ms] - #3 Load Config
+         ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [3070ms] - #4 Require(0) config/config.default.ts
+                                               ▇ [0ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                               ▇ [1ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                               ▇ [0ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                               ▇ [0ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                               ▇ [1ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                               ▇ [1ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                               ▇ [0ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                               ▇ [0ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                               ▇ [0ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                               ▇ [1ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                               ▇ [0ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                               ▇ [0ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                               ▇ [0ms] - #17 Require(13) node_modules/egg/config/config.default.js
+                                               ▇ [0ms] - #18 Require(14) config/config.default.ts
+                                               ▇ [1ms] - #19 Require(15) node_modules/egg-security/config/config.local.js
+                                               ▇ [0ms] - #20 Require(16) node_modules/egg-watcher/config/config.local.js
+                                               ▇ [0ms] - #21 Require(17) node_modules/egg-view/config/config.local.js
+                                               ▇ [1ms] - #22 Require(18) node_modules/egg/config/config.local.js
+                                               ▇ [50ms] - #23 Load extend/agent.js
+                                               ▇ [1ms] - #24 Require(19) node_modules/egg-security/app/extend/agent.js
+                                               ▇ [45ms] - #25 Require(20) node_modules/egg-schedule/app/extend/agent.js
+                                                ▇ [1ms] - #26 Require(21) node_modules/egg-logrotator/app/extend/agent.js
+                                                ▇ [19ms] - #27 Load extend/context.js
+                                                ▇ [5ms] - #28 Require(22) node_modules/egg-security/app/extend/context.js
+                                                ▇ [1ms] - #29 Require(23) node_modules/egg-jsonp/app/extend/context.js
+                                                ▇ [0ms] - #30 Require(24) node_modules/egg-i18n/app/extend/context.js
+                                                ▇ [8ms] - #31 Require(25) node_modules/egg-multipart/app/extend/context.js
+                                                ▇ [1ms] - #32 Require(26) node_modules/egg-view/app/extend/context.js
+                                                ▇ [1ms] - #33 Require(27) node_modules/egg/app/extend/context.js
+                                                ▇ [19ms] - #34 Load agent.js
+                                                ▇ [1ms] - #35 Require(28) node_modules/egg-security/agent.js
+                                                ▇ [1ms] - #36 Require(29) node_modules/egg-onerror/agent.js
+                                                ▇ [4ms] - #37 Require(30) node_modules/egg-watcher/agent.js
+                                                ▇ [2ms] - #38 Require(31) node_modules/egg-schedule/agent.js
+                                                ▇ [9ms] - #39 Require(32) node_modules/egg-development/agent.js
+                                                ▇ [0ms] - #40 Require(33) node_modules/egg-logrotator/agent.js
+                                                ▇ [0ms] - #41 Require(34) node_modules/egg/agent.js
+                                                 ▇ [56ms] - #42 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                                 ▇ [41ms] - #43 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                                 ▇ [64ms] - #44 Before Start in node_modules/egg-development/agent.js:8:9
+2024-11-27 16:47:51,859 INFO 64303 [egg:core] dump config after ready, 6ms
+2024-11-27 16:51:11,070 INFO 64303 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app/controller/user.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12888570683,"size":877,"blocks":8,"atimeMs":1732725856808.7905,"mtimeMs":1732726271059.1335,"ctimeMs":1732726271059.1335,"birthtimeMs":1732725134332.2922},"remove":false,"isDirectory":false,"isFile":true}
+2024-11-27 16:51:11,124 INFO 64303 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app/controller/user.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12888570683,"size":877,"blocks":8,"atimeMs":1732726271119.905,"mtimeMs":1732726271059.1335,"ctimeMs":1732726271059.1335,"birthtimeMs":1732725134332.2922},"remove":false,"isDirectory":false,"isFile":true}
+2024-11-27 16:51:11,327 WARN 64303 [agent:development] reload worker because /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app/controller/user.ts change
+2024-11-27 16:52:00,559 WARN 64303 [agent:development] reload worker because /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app/controller/user.ts change
+2024-11-27 16:52:00,357 INFO 64303 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app/controller/user.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12888570683,"size":655,"blocks":8,"atimeMs":1732726320332.1821,"mtimeMs":1732726320293.355,"ctimeMs":1732726320293.355,"birthtimeMs":1732725134332.2922},"remove":false,"isDirectory":false,"isFile":true}
+2024-11-27 16:52:05,132 INFO 64303 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app/controller/user.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12888570683,"size":657,"blocks":8,"atimeMs":1732726321837.464,"mtimeMs":1732726325111.6982,"ctimeMs":1732726325111.6982,"birthtimeMs":1732725134332.2922},"remove":false,"isDirectory":false,"isFile":true}
+2024-11-27 16:52:05,171 INFO 64303 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app/controller/user.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12888570683,"size":657,"blocks":8,"atimeMs":1732726325138.583,"mtimeMs":1732726325111.6982,"ctimeMs":1732726325111.6982,"birthtimeMs":1732725134332.2922},"remove":false,"isDirectory":false,"isFile":true}
+2024-11-27 16:52:19,070 INFO 65397 [egg:logger] init all loggers with options: {"dir":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/logs/studenthub","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"studenthub-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-11-27 16:52:19,078 INFO 65397 [egg:core] dump config after load, 3ms
+2024-11-27 16:52:19,137 INFO 65397 [egg-watcher] Start watching: ["/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"]
+2024-11-27 16:52:19,137 INFO 65397 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app"
+2024-11-27 16:52:19,138 INFO 65397 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config"
+2024-11-27 16:52:19,138 INFO 65397 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks"
+2024-11-27 16:52:19,138 INFO 65397 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy"
+2024-11-27 16:52:19,138 INFO 65397 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"
+2024-11-27 16:52:19,138 INFO 65397 [egg-watcher:agent] watcher start success
+2024-11-27 16:52:19,151 INFO 65397 egg start timeline:
+▇▇▇▇▇▇▇▇▇ [857ms] - #0 Process Start
+         ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [3627ms] - #1 Application Start
+         ▇ [8ms] - #2 Load Plugin
+         ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [3410ms] - #3 Load Config
+         ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [3397ms] - #4 Require(0) config/config.default.ts
+                                               ▇ [0ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                               ▇ [1ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                               ▇ [1ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                               ▇ [0ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                               ▇ [1ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                               ▇ [0ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                               ▇ [0ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                               ▇ [0ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                               ▇ [0ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                               ▇ [0ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                               ▇ [0ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                               ▇ [0ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                               ▇ [0ms] - #17 Require(13) node_modules/egg/config/config.default.js
+                                               ▇ [0ms] - #18 Require(14) config/config.default.ts
+                                               ▇ [0ms] - #19 Require(15) node_modules/egg-security/config/config.local.js
+                                               ▇ [1ms] - #20 Require(16) node_modules/egg-watcher/config/config.local.js
+                                               ▇ [0ms] - #21 Require(17) node_modules/egg-view/config/config.local.js
+                                               ▇ [0ms] - #22 Require(18) node_modules/egg/config/config.local.js
+                                               ▇ [59ms] - #23 Load extend/agent.js
+                                               ▇ [3ms] - #24 Require(19) node_modules/egg-security/app/extend/agent.js
+                                               ▇ [52ms] - #25 Require(20) node_modules/egg-schedule/app/extend/agent.js
+                                                ▇ [2ms] - #26 Require(21) node_modules/egg-logrotator/app/extend/agent.js
+                                                ▇ [38ms] - #27 Load extend/context.js
+                                                ▇ [12ms] - #28 Require(22) node_modules/egg-security/app/extend/context.js
+                                                ▇ [2ms] - #29 Require(23) node_modules/egg-jsonp/app/extend/context.js
+                                                ▇ [0ms] - #30 Require(24) node_modules/egg-i18n/app/extend/context.js
+                                                ▇ [18ms] - #31 Require(25) node_modules/egg-multipart/app/extend/context.js
+                                                ▇ [1ms] - #32 Require(26) node_modules/egg-view/app/extend/context.js
+                                                ▇ [1ms] - #33 Require(27) node_modules/egg/app/extend/context.js
+                                                ▇ [21ms] - #34 Load agent.js
+                                                ▇ [1ms] - #35 Require(28) node_modules/egg-security/agent.js
+                                                ▇ [1ms] - #36 Require(29) node_modules/egg-onerror/agent.js
+                                                ▇ [6ms] - #37 Require(30) node_modules/egg-watcher/agent.js
+                                                ▇ [2ms] - #38 Require(31) node_modules/egg-schedule/agent.js
+                                                ▇ [9ms] - #39 Require(32) node_modules/egg-development/agent.js
+                                                 ▇ [0ms] - #40 Require(33) node_modules/egg-logrotator/agent.js
+                                                 ▇ [0ms] - #41 Require(34) node_modules/egg/agent.js
+                                                 ▇ [66ms] - #42 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                                 ▇ [44ms] - #43 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                                 ▇ [73ms] - #44 Before Start in node_modules/egg-development/agent.js:8:9
+2024-11-27 16:52:19,151 INFO 65397 [egg:core] dump config after ready, 4ms
+2024-11-27 16:52:52,071 INFO 65569 [egg:logger] init all loggers with options: {"dir":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/logs/studenthub","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"studenthub-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-11-27 16:52:52,079 INFO 65569 [egg:core] dump config after load, 4ms
+2024-11-27 16:52:52,118 INFO 65569 [egg-watcher] Start watching: ["/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"]
+2024-11-27 16:52:52,118 INFO 65569 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app"
+2024-11-27 16:52:52,119 INFO 65569 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config"
+2024-11-27 16:52:52,119 INFO 65569 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks"
+2024-11-27 16:52:52,119 INFO 65569 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy"
+2024-11-27 16:52:52,119 INFO 65569 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"
+2024-11-27 16:52:52,119 INFO 65569 [egg-watcher:agent] watcher start success
+2024-11-27 16:52:52,138 INFO 65569 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇ [896ms] - #0 Process Start
+           ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [3055ms] - #1 Application Start
+           ▇ [8ms] - #2 Load Plugin
+           ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2900ms] - #3 Load Config
+           ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2886ms] - #4 Require(0) config/config.default.ts
+                                                ▇ [0ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                                ▇ [0ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                                ▇ [0ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                                ▇ [0ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                                ▇ [0ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                                ▇ [1ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                                ▇ [0ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                                ▇ [1ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                                ▇ [0ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                                ▇ [0ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                                ▇ [0ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                                ▇ [0ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                                ▇ [0ms] - #17 Require(13) node_modules/egg/config/config.default.js
+                                                ▇ [0ms] - #18 Require(14) config/config.default.ts
+                                                ▇ [1ms] - #19 Require(15) node_modules/egg-security/config/config.local.js
+                                                ▇ [0ms] - #20 Require(16) node_modules/egg-watcher/config/config.local.js
+                                                ▇ [0ms] - #21 Require(17) node_modules/egg-view/config/config.local.js
+                                                ▇ [0ms] - #22 Require(18) node_modules/egg/config/config.local.js
+                                                ▇ [34ms] - #23 Load extend/agent.js
+                                                ▇ [1ms] - #24 Require(19) node_modules/egg-security/app/extend/agent.js
+                                                ▇ [31ms] - #25 Require(20) node_modules/egg-schedule/app/extend/agent.js
+                                                ▇ [1ms] - #26 Require(21) node_modules/egg-logrotator/app/extend/agent.js
+                                                ▇ [20ms] - #27 Load extend/context.js
+                                                ▇ [6ms] - #28 Require(22) node_modules/egg-security/app/extend/context.js
+                                                ▇ [1ms] - #29 Require(23) node_modules/egg-jsonp/app/extend/context.js
+                                                ▇ [0ms] - #30 Require(24) node_modules/egg-i18n/app/extend/context.js
+                                                ▇ [9ms] - #31 Require(25) node_modules/egg-multipart/app/extend/context.js
+                                                ▇ [1ms] - #32 Require(26) node_modules/egg-view/app/extend/context.js
+                                                ▇ [1ms] - #33 Require(27) node_modules/egg/app/extend/context.js
+                                                ▇ [16ms] - #34 Load agent.js
+                                                ▇ [1ms] - #35 Require(28) node_modules/egg-security/agent.js
+                                                ▇ [0ms] - #36 Require(29) node_modules/egg-onerror/agent.js
+                                                ▇ [4ms] - #37 Require(30) node_modules/egg-watcher/agent.js
+                                                ▇ [3ms] - #38 Require(31) node_modules/egg-schedule/agent.js
+                                                 ▇ [5ms] - #39 Require(32) node_modules/egg-development/agent.js
+                                                 ▇ [0ms] - #40 Require(33) node_modules/egg-logrotator/agent.js
+                                                 ▇ [1ms] - #41 Require(34) node_modules/egg/agent.js
+                                                 ▇ [46ms] - #42 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                                 ▇ [36ms] - #43 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                                 ▇ [58ms] - #44 Before Start in node_modules/egg-development/agent.js:8:9
+2024-11-27 16:52:52,138 INFO 65569 [egg:core] dump config after ready, 3ms
+2024-11-27 16:56:55,555 WARN 65569 [agent:development] reload worker because /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app/controller/user.ts change
+2024-11-27 16:56:55,351 INFO 65569 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app/controller/user.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12888570683,"size":734,"blocks":8,"atimeMs":1732726615321.1934,"mtimeMs":1732726615288.789,"ctimeMs":1732726615288.789,"birthtimeMs":1732725134332.2922},"remove":false,"isDirectory":false,"isFile":true}
+2024-11-27 16:57:10,297 WARN 65569 [agent:development] reload worker because /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app/controller/user.ts change
+2024-11-27 16:57:10,096 INFO 65569 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app/controller/user.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12888570683,"size":734,"blocks":8,"atimeMs":1732726630059.9978,"mtimeMs":1732726630035.116,"ctimeMs":1732726630035.116,"birthtimeMs":1732725134332.2922},"remove":false,"isDirectory":false,"isFile":true}
+2024-11-27 16:57:28,405 INFO 66754 [egg:logger] init all loggers with options: {"dir":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/logs/studenthub","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"studenthub-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-11-27 16:57:28,413 INFO 66754 [egg:core] dump config after load, 4ms
+2024-11-27 16:57:28,462 INFO 66754 [egg-watcher] Start watching: ["/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"]
+2024-11-27 16:57:28,462 INFO 66754 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app"
+2024-11-27 16:57:28,462 INFO 66754 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config"
+2024-11-27 16:57:28,462 INFO 66754 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks"
+2024-11-27 16:57:28,463 INFO 66754 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy"
+2024-11-27 16:57:28,463 INFO 66754 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"
+2024-11-27 16:57:28,463 INFO 66754 [egg-watcher:agent] watcher start success
+2024-11-27 16:57:28,478 INFO 66754 egg start timeline:
+▇▇▇▇▇▇▇▇▇ [680ms] - #0 Process Start
+         ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2733ms] - #1 Application Start
+          ▇ [7ms] - #2 Load Plugin
+          ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2532ms] - #3 Load Config
+          ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2517ms] - #4 Require(0) config/config.default.ts
+                                               ▇ [1ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                               ▇ [0ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                               ▇ [0ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                               ▇ [0ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                               ▇ [0ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                               ▇ [0ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                               ▇ [1ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                               ▇ [0ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                               ▇ [0ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                               ▇ [0ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                               ▇ [0ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                               ▇ [1ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                               ▇ [0ms] - #17 Require(13) node_modules/egg/config/config.default.js
+                                               ▇ [0ms] - #18 Require(14) config/config.default.ts
+                                               ▇ [1ms] - #19 Require(15) node_modules/egg-security/config/config.local.js
+                                               ▇ [0ms] - #20 Require(16) node_modules/egg-watcher/config/config.local.js
+                                               ▇ [0ms] - #21 Require(17) node_modules/egg-view/config/config.local.js
+                                               ▇ [0ms] - #22 Require(18) node_modules/egg/config/config.local.js
+                                               ▇ [71ms] - #23 Load extend/agent.js
+                                               ▇ [2ms] - #24 Require(19) node_modules/egg-security/app/extend/agent.js
+                                               ▇ [65ms] - #25 Require(20) node_modules/egg-schedule/app/extend/agent.js
+                                                ▇ [1ms] - #26 Require(21) node_modules/egg-logrotator/app/extend/agent.js
+                                                ▇ [22ms] - #27 Load extend/context.js
+                                                ▇ [6ms] - #28 Require(22) node_modules/egg-security/app/extend/context.js
+                                                ▇ [2ms] - #29 Require(23) node_modules/egg-jsonp/app/extend/context.js
+                                                ▇ [1ms] - #30 Require(24) node_modules/egg-i18n/app/extend/context.js
+                                                ▇ [9ms] - #31 Require(25) node_modules/egg-multipart/app/extend/context.js
+                                                ▇ [0ms] - #32 Require(26) node_modules/egg-view/app/extend/context.js
+                                                ▇ [1ms] - #33 Require(27) node_modules/egg/app/extend/context.js
+                                                ▇ [20ms] - #34 Load agent.js
+                                                ▇ [1ms] - #35 Require(28) node_modules/egg-security/agent.js
+                                                ▇ [1ms] - #36 Require(29) node_modules/egg-onerror/agent.js
+                                                ▇ [4ms] - #37 Require(30) node_modules/egg-watcher/agent.js
+                                                ▇ [2ms] - #38 Require(31) node_modules/egg-schedule/agent.js
+                                                ▇ [10ms] - #39 Require(32) node_modules/egg-development/agent.js
+                                                ▇ [0ms] - #40 Require(33) node_modules/egg-logrotator/agent.js
+                                                ▇ [0ms] - #41 Require(34) node_modules/egg/agent.js
+                                                ▇ [55ms] - #42 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                                ▇ [39ms] - #43 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                                ▇ [62ms] - #44 Before Start in node_modules/egg-development/agent.js:8:9
+2024-11-27 16:57:28,479 INFO 66754 [egg:core] dump config after ready, 7ms
+2024-11-27 16:59:31,532 INFO 67288 [egg:logger] init all loggers with options: {"dir":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/logs/studenthub","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"studenthub-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-11-27 16:59:31,541 INFO 67288 [egg:core] dump config after load, 5ms
+2024-11-27 16:59:31,592 INFO 67288 [egg-watcher] Start watching: ["/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"]
+2024-11-27 16:59:31,592 INFO 67288 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app"
+2024-11-27 16:59:31,593 INFO 67288 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config"
+2024-11-27 16:59:31,593 INFO 67288 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks"
+2024-11-27 16:59:31,593 INFO 67288 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy"
+2024-11-27 16:59:31,593 INFO 67288 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"
+2024-11-27 16:59:31,593 INFO 67288 [egg-watcher:agent] watcher start success
+2024-11-27 16:59:31,607 INFO 67288 egg start timeline:
+▇▇▇▇▇▇▇▇▇ [713ms] - #0 Process Start
+         ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2951ms] - #1 Application Start
+         ▇ [9ms] - #2 Load Plugin
+          ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2734ms] - #3 Load Config
+          ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2721ms] - #4 Require(0) config/config.default.ts
+                                               ▇ [0ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                               ▇ [1ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                               ▇ [1ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                               ▇ [0ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                               ▇ [1ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                               ▇ [0ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                               ▇ [1ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                               ▇ [0ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                               ▇ [0ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                               ▇ [0ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                               ▇ [0ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                               ▇ [0ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                               ▇ [0ms] - #17 Require(13) node_modules/egg/config/config.default.js
+                                               ▇ [0ms] - #18 Require(14) config/config.default.ts
+                                               ▇ [1ms] - #19 Require(15) node_modules/egg-security/config/config.local.js
+                                               ▇ [0ms] - #20 Require(16) node_modules/egg-watcher/config/config.local.js
+                                               ▇ [0ms] - #21 Require(17) node_modules/egg-view/config/config.local.js
+                                               ▇ [0ms] - #22 Require(18) node_modules/egg/config/config.local.js
+                                               ▇ [56ms] - #23 Load extend/agent.js
+                                               ▇ [2ms] - #24 Require(19) node_modules/egg-security/app/extend/agent.js
+                                               ▇ [50ms] - #25 Require(20) node_modules/egg-schedule/app/extend/agent.js
+                                               ▇ [1ms] - #26 Require(21) node_modules/egg-logrotator/app/extend/agent.js
+                                                ▇ [38ms] - #27 Load extend/context.js
+                                                ▇ [12ms] - #28 Require(22) node_modules/egg-security/app/extend/context.js
+                                                ▇ [2ms] - #29 Require(23) node_modules/egg-jsonp/app/extend/context.js
+                                                ▇ [1ms] - #30 Require(24) node_modules/egg-i18n/app/extend/context.js
+                                                ▇ [18ms] - #31 Require(25) node_modules/egg-multipart/app/extend/context.js
+                                                ▇ [1ms] - #32 Require(26) node_modules/egg-view/app/extend/context.js
+                                                ▇ [1ms] - #33 Require(27) node_modules/egg/app/extend/context.js
+                                                ▇ [30ms] - #34 Load agent.js
+                                                ▇ [1ms] - #35 Require(28) node_modules/egg-security/agent.js
+                                                ▇ [1ms] - #36 Require(29) node_modules/egg-onerror/agent.js
+                                                ▇ [6ms] - #37 Require(30) node_modules/egg-watcher/agent.js
+                                                ▇ [1ms] - #38 Require(31) node_modules/egg-schedule/agent.js
+                                                ▇ [18ms] - #39 Require(32) node_modules/egg-development/agent.js
+                                                ▇ [1ms] - #40 Require(33) node_modules/egg-logrotator/agent.js
+                                                ▇ [1ms] - #41 Require(34) node_modules/egg/agent.js
+                                                 ▇ [59ms] - #42 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                                 ▇ [43ms] - #43 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                                 ▇ [65ms] - #44 Before Start in node_modules/egg-development/agent.js:8:9
+2024-11-27 16:59:31,607 INFO 67288 [egg:core] dump config after ready, 5ms
+2024-11-27 17:05:49,022 INFO 69179 [egg:logger] init all loggers with options: {"dir":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/logs/studenthub","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"studenthub-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-11-27 17:05:49,030 INFO 69179 [egg:core] dump config after load, 4ms
+2024-11-27 17:05:49,089 INFO 69179 [egg-watcher] Start watching: ["/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"]
+2024-11-27 17:05:49,089 INFO 69179 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app"
+2024-11-27 17:05:49,089 INFO 69179 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config"
+2024-11-27 17:05:49,089 INFO 69179 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks"
+2024-11-27 17:05:49,089 INFO 69179 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy"
+2024-11-27 17:05:49,089 INFO 69179 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"
+2024-11-27 17:05:49,089 INFO 69179 [egg-watcher:agent] watcher start success
+2024-11-27 17:05:49,102 INFO 69179 egg start timeline:
+▇▇▇▇▇▇▇▇▇ [676ms] - #0 Process Start
+         ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2809ms] - #1 Application Start
+         ▇ [7ms] - #2 Load Plugin
+         ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2597ms] - #3 Load Config
+         ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2582ms] - #4 Require(0) config/config.default.ts
+                                              ▇ [1ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                              ▇ [0ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                               ▇ [0ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                               ▇ [1ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                               ▇ [0ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                               ▇ [0ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                               ▇ [0ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                               ▇ [0ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                               ▇ [1ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                               ▇ [0ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                               ▇ [0ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                               ▇ [0ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                               ▇ [1ms] - #17 Require(13) node_modules/egg/config/config.default.js
+                                               ▇ [0ms] - #18 Require(14) config/config.default.ts
+                                               ▇ [0ms] - #19 Require(15) node_modules/egg-security/config/config.local.js
+                                               ▇ [1ms] - #20 Require(16) node_modules/egg-watcher/config/config.local.js
+                                               ▇ [0ms] - #21 Require(17) node_modules/egg-view/config/config.local.js
+                                               ▇ [0ms] - #22 Require(18) node_modules/egg/config/config.local.js
+                                               ▇ [56ms] - #23 Load extend/agent.js
+                                               ▇ [3ms] - #24 Require(19) node_modules/egg-security/app/extend/agent.js
+                                               ▇ [50ms] - #25 Require(20) node_modules/egg-schedule/app/extend/agent.js
+                                               ▇ [2ms] - #26 Require(21) node_modules/egg-logrotator/app/extend/agent.js
+                                               ▇ [38ms] - #27 Load extend/context.js
+                                               ▇ [12ms] - #28 Require(22) node_modules/egg-security/app/extend/context.js
+                                                ▇ [2ms] - #29 Require(23) node_modules/egg-jsonp/app/extend/context.js
+                                                ▇ [0ms] - #30 Require(24) node_modules/egg-i18n/app/extend/context.js
+                                                ▇ [19ms] - #31 Require(25) node_modules/egg-multipart/app/extend/context.js
+                                                ▇ [1ms] - #32 Require(26) node_modules/egg-view/app/extend/context.js
+                                                ▇ [1ms] - #33 Require(27) node_modules/egg/app/extend/context.js
+                                                ▇ [21ms] - #34 Load agent.js
+                                                ▇ [1ms] - #35 Require(28) node_modules/egg-security/agent.js
+                                                ▇ [1ms] - #36 Require(29) node_modules/egg-onerror/agent.js
+                                                ▇ [6ms] - #37 Require(30) node_modules/egg-watcher/agent.js
+                                                ▇ [1ms] - #38 Require(31) node_modules/egg-schedule/agent.js
+                                                ▇ [9ms] - #39 Require(32) node_modules/egg-development/agent.js
+                                                ▇ [1ms] - #40 Require(33) node_modules/egg-logrotator/agent.js
+                                                ▇ [1ms] - #41 Require(34) node_modules/egg/agent.js
+                                                ▇ [65ms] - #42 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                                ▇ [43ms] - #43 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                                ▇ [70ms] - #44 Before Start in node_modules/egg-development/agent.js:8:9
+2024-11-27 17:05:49,103 INFO 69179 [egg:core] dump config after ready, 5ms
+2024-11-27 17:08:19,908 WARN 69179 [agent:development] reload worker because /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config/config.default.ts change
+2024-11-27 17:08:19,706 INFO 69179 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config/config.default.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12888570715,"size":746,"blocks":8,"atimeMs":1732727299673.0356,"mtimeMs":1732727299642.9302,"ctimeMs":1732727299642.9302,"birthtimeMs":1732725173652.9866},"remove":false,"isDirectory":false,"isFile":true}
+2024-11-27 17:08:51,486 INFO 69944 [egg:logger] init all loggers with options: {"dir":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/logs/studenthub","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"studenthub-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-11-27 17:08:51,494 INFO 69944 [egg:core] dump config after load, 4ms
+2024-11-27 17:08:51,537 INFO 69944 [egg-watcher] Start watching: ["/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"]
+2024-11-27 17:08:51,537 INFO 69944 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app"
+2024-11-27 17:08:51,538 INFO 69944 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config"
+2024-11-27 17:08:51,538 INFO 69944 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks"
+2024-11-27 17:08:51,538 INFO 69944 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy"
+2024-11-27 17:08:51,538 INFO 69944 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"
+2024-11-27 17:08:51,538 INFO 69944 [egg-watcher:agent] watcher start success
+2024-11-27 17:08:51,551 INFO 69944 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇ [740ms] - #0 Process Start
+          ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2657ms] - #1 Application Start
+           ▇ [9ms] - #2 Load Plugin
+           ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2484ms] - #3 Load Config
+           ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2463ms] - #4 Require(0) config/config.default.ts
+                                               ▇ [0ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                               ▇ [1ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                               ▇ [0ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                               ▇ [0ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                               ▇ [0ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                               ▇ [0ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                               ▇ [0ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                               ▇ [0ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                               ▇ [0ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                               ▇ [1ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                               ▇ [0ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                               ▇ [0ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                               ▇ [0ms] - #17 Require(13) node_modules/egg/config/config.default.js
+                                               ▇ [0ms] - #18 Require(14) config/config.default.ts
+                                               ▇ [0ms] - #19 Require(15) node_modules/egg-security/config/config.local.js
+                                               ▇ [0ms] - #20 Require(16) node_modules/egg-watcher/config/config.local.js
+                                               ▇ [0ms] - #21 Require(17) node_modules/egg-view/config/config.local.js
+                                               ▇ [1ms] - #22 Require(18) node_modules/egg/config/config.local.js
+                                               ▇ [50ms] - #23 Load extend/agent.js
+                                               ▇ [2ms] - #24 Require(19) node_modules/egg-security/app/extend/agent.js
+                                               ▇ [44ms] - #25 Require(20) node_modules/egg-schedule/app/extend/agent.js
+                                                ▇ [1ms] - #26 Require(21) node_modules/egg-logrotator/app/extend/agent.js
+                                                ▇ [19ms] - #27 Load extend/context.js
+                                                ▇ [6ms] - #28 Require(22) node_modules/egg-security/app/extend/context.js
+                                                ▇ [1ms] - #29 Require(23) node_modules/egg-jsonp/app/extend/context.js
+                                                ▇ [0ms] - #30 Require(24) node_modules/egg-i18n/app/extend/context.js
+                                                ▇ [8ms] - #31 Require(25) node_modules/egg-multipart/app/extend/context.js
+                                                ▇ [1ms] - #32 Require(26) node_modules/egg-view/app/extend/context.js
+                                                ▇ [1ms] - #33 Require(27) node_modules/egg/app/extend/context.js
+                                                ▇ [18ms] - #34 Load agent.js
+                                                ▇ [1ms] - #35 Require(28) node_modules/egg-security/agent.js
+                                                ▇ [1ms] - #36 Require(29) node_modules/egg-onerror/agent.js
+                                                ▇ [3ms] - #37 Require(30) node_modules/egg-watcher/agent.js
+                                                ▇ [1ms] - #38 Require(31) node_modules/egg-schedule/agent.js
+                                                ▇ [9ms] - #39 Require(32) node_modules/egg-development/agent.js
+                                                ▇ [0ms] - #40 Require(33) node_modules/egg-logrotator/agent.js
+                                                ▇ [0ms] - #41 Require(34) node_modules/egg/agent.js
+                                                 ▇ [51ms] - #42 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                                 ▇ [36ms] - #43 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                                 ▇ [56ms] - #44 Before Start in node_modules/egg-development/agent.js:8:9
+2024-11-27 17:08:51,552 INFO 69944 [egg:core] dump config after ready, 5ms
+2024-11-27 17:10:46,910 INFO 69944 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config/config.default.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12888570715,"size":746,"blocks":8,"atimeMs":1732727302270.9683,"mtimeMs":1732727446847.0774,"ctimeMs":1732727446847.0774,"birthtimeMs":1732725173652.9866},"remove":false,"isDirectory":false,"isFile":true}
+2024-11-27 17:10:47,113 WARN 69944 [agent:development] reload worker because /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config/config.default.ts change
+2024-11-27 17:12:02,471 WARN 69944 [agent:development] reload worker because /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config/config.default.ts change
+2024-11-27 17:12:02,270 INFO 69944 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config/config.default.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12888570715,"size":732,"blocks":8,"atimeMs":1732727522247.0615,"mtimeMs":1732727522209.0286,"ctimeMs":1732727522209.0286,"birthtimeMs":1732725173652.9866},"remove":false,"isDirectory":false,"isFile":true}
+2024-11-27 17:12:27,998 INFO 70864 [egg:logger] init all loggers with options: {"dir":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/logs/studenthub","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"studenthub-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-11-27 17:12:28,007 INFO 70864 [egg:core] dump config after load, 5ms
+2024-11-27 17:12:28,071 INFO 70864 [egg-watcher] Start watching: ["/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"]
+2024-11-27 17:12:28,071 INFO 70864 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app"
+2024-11-27 17:12:28,072 INFO 70864 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config"
+2024-11-27 17:12:28,072 INFO 70864 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks"
+2024-11-27 17:12:28,072 INFO 70864 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy"
+2024-11-27 17:12:28,072 INFO 70864 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"
+2024-11-27 17:12:28,073 INFO 70864 [egg-watcher:agent] watcher start success
+2024-11-27 17:12:28,092 INFO 70864 egg start timeline:
+▇▇▇▇▇▇▇▇▇ [859ms] - #0 Process Start
+         ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [3864ms] - #1 Application Start
+         ▇ [7ms] - #2 Load Plugin
+         ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [3571ms] - #3 Load Config
+         ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [3556ms] - #4 Require(0) config/config.default.ts
+                                              ▇ [1ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                              ▇ [0ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                              ▇ [0ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                              ▇ [0ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                              ▇ [0ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                              ▇ [0ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                              ▇ [1ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                              ▇ [0ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                              ▇ [1ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                              ▇ [0ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                              ▇ [1ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                              ▇ [0ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                              ▇ [1ms] - #17 Require(13) node_modules/egg/config/config.default.js
+                                              ▇ [0ms] - #18 Require(14) config/config.default.ts
+                                              ▇ [1ms] - #19 Require(15) node_modules/egg-security/config/config.local.js
+                                              ▇ [0ms] - #20 Require(16) node_modules/egg-watcher/config/config.local.js
+                                              ▇ [0ms] - #21 Require(17) node_modules/egg-view/config/config.local.js
+                                              ▇ [1ms] - #22 Require(18) node_modules/egg/config/config.local.js
+                                               ▇ [134ms] - #23 Load extend/agent.js
+                                               ▇ [2ms] - #24 Require(19) node_modules/egg-security/app/extend/agent.js
+                                               ▇ [124ms] - #25 Require(20) node_modules/egg-schedule/app/extend/agent.js
+                                                ▇ [2ms] - #26 Require(21) node_modules/egg-logrotator/app/extend/agent.js
+                                                ▇ [24ms] - #27 Load extend/context.js
+                                                ▇ [7ms] - #28 Require(22) node_modules/egg-security/app/extend/context.js
+                                                ▇ [1ms] - #29 Require(23) node_modules/egg-jsonp/app/extend/context.js
+                                                ▇ [1ms] - #30 Require(24) node_modules/egg-i18n/app/extend/context.js
+                                                ▇ [12ms] - #31 Require(25) node_modules/egg-multipart/app/extend/context.js
+                                                ▇ [1ms] - #32 Require(26) node_modules/egg-view/app/extend/context.js
+                                                ▇ [1ms] - #33 Require(27) node_modules/egg/app/extend/context.js
+                                                ▇ [23ms] - #34 Load agent.js
+                                                ▇ [1ms] - #35 Require(28) node_modules/egg-security/agent.js
+                                                ▇ [1ms] - #36 Require(29) node_modules/egg-onerror/agent.js
+                                                ▇ [5ms] - #37 Require(30) node_modules/egg-watcher/agent.js
+                                                ▇ [4ms] - #38 Require(31) node_modules/egg-schedule/agent.js
+                                                ▇ [10ms] - #39 Require(32) node_modules/egg-development/agent.js
+                                                ▇ [1ms] - #40 Require(33) node_modules/egg-logrotator/agent.js
+                                                ▇ [1ms] - #41 Require(34) node_modules/egg/agent.js
+                                                 ▇ [72ms] - #42 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                                 ▇ [51ms] - #43 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                                 ▇ [83ms] - #44 Before Start in node_modules/egg-development/agent.js:8:9
+2024-11-27 17:12:28,092 INFO 70864 [egg:core] dump config after ready, 6ms
+2024-11-27 17:14:32,487 INFO 71728 [egg:logger] init all loggers with options: {"dir":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/logs/studenthub","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"studenthub-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-11-27 17:14:32,500 INFO 71728 [egg:core] dump config after load, 5ms
+2024-11-27 17:14:32,699 INFO 71728 [egg-watcher] Start watching: ["/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"]
+2024-11-27 17:14:32,699 INFO 71728 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app"
+2024-11-27 17:14:32,700 INFO 71728 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config"
+2024-11-27 17:14:32,700 INFO 71728 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks"
+2024-11-27 17:14:32,700 INFO 71728 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy"
+2024-11-27 17:14:32,700 INFO 71728 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"
+2024-11-27 17:14:32,701 INFO 71728 [egg-watcher:agent] watcher start success
+2024-11-27 17:14:32,738 INFO 71728 egg start timeline:
+▇▇▇▇▇▇▇▇ [935ms] - #0 Process Start
+        ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [4294ms] - #1 Application Start
+         ▇ [9ms] - #2 Load Plugin
+         ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [3467ms] - #3 Load Config
+         ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [3454ms] - #4 Require(0) config/config.default.ts
+                                          ▇ [0ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                          ▇ [0ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                          ▇ [0ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                          ▇ [0ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                          ▇ [1ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                          ▇ [0ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                          ▇ [1ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                          ▇ [1ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                          ▇ [0ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                          ▇ [0ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                          ▇ [0ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                          ▇ [0ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                          ▇ [0ms] - #17 Require(13) node_modules/egg/config/config.default.js
+                                          ▇ [0ms] - #18 Require(14) config/config.default.ts
+                                          ▇ [0ms] - #19 Require(15) node_modules/egg-security/config/config.local.js
+                                          ▇ [0ms] - #20 Require(16) node_modules/egg-watcher/config/config.local.js
+                                          ▇ [0ms] - #21 Require(17) node_modules/egg-view/config/config.local.js
+                                          ▇ [0ms] - #22 Require(18) node_modules/egg/config/config.local.js
+                                          ▇▇▇▇ [481ms] - #23 Load extend/agent.js
+                                          ▇ [3ms] - #24 Require(19) node_modules/egg-security/app/extend/agent.js
+                                          ▇▇▇▇ [472ms] - #25 Require(20) node_modules/egg-schedule/app/extend/agent.js
+                                              ▇ [2ms] - #26 Require(21) node_modules/egg-logrotator/app/extend/agent.js
+                                              ▇ [57ms] - #27 Load extend/context.js
+                                              ▇ [23ms] - #28 Require(22) node_modules/egg-security/app/extend/context.js
+                                              ▇ [4ms] - #29 Require(23) node_modules/egg-jsonp/app/extend/context.js
+                                               ▇ [0ms] - #30 Require(24) node_modules/egg-i18n/app/extend/context.js
+                                               ▇ [20ms] - #31 Require(25) node_modules/egg-multipart/app/extend/context.js
+                                               ▇ [2ms] - #32 Require(26) node_modules/egg-view/app/extend/context.js
+                                               ▇ [2ms] - #33 Require(27) node_modules/egg/app/extend/context.js
+                                               ▇ [29ms] - #34 Load agent.js
+                                               ▇ [0ms] - #35 Require(28) node_modules/egg-security/agent.js
+                                               ▇ [1ms] - #36 Require(29) node_modules/egg-onerror/agent.js
+                                               ▇ [7ms] - #37 Require(30) node_modules/egg-watcher/agent.js
+                                               ▇ [3ms] - #38 Require(31) node_modules/egg-schedule/agent.js
+                                               ▇ [12ms] - #39 Require(32) node_modules/egg-development/agent.js
+                                               ▇ [1ms] - #40 Require(33) node_modules/egg-logrotator/agent.js
+                                               ▇ [2ms] - #41 Require(34) node_modules/egg/agent.js
+                                               ▇ [209ms] - #42 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                               ▇ [74ms] - #43 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                               ▇▇ [224ms] - #44 Before Start in node_modules/egg-development/agent.js:8:9
+2024-11-27 17:14:32,738 INFO 71728 [egg:core] dump config after ready, 15ms
+2024-11-27 17:26:18,604 INFO 74596 [egg:logger] init all loggers with options: {"dir":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/logs/studenthub","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"studenthub-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-11-27 17:26:18,615 INFO 74596 [egg:core] dump config after load, 5ms
+2024-11-27 17:26:18,690 INFO 74596 [egg-watcher] Start watching: ["/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"]
+2024-11-27 17:26:18,690 INFO 74596 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app"
+2024-11-27 17:26:18,691 INFO 74596 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config"
+2024-11-27 17:26:18,691 INFO 74596 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks"
+2024-11-27 17:26:18,691 INFO 74596 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy"
+2024-11-27 17:26:18,691 INFO 74596 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"
+2024-11-27 17:26:18,691 INFO 74596 [egg-watcher:agent] watcher start success
+2024-11-27 17:26:18,874 INFO 74596 egg start timeline:
+▇▇▇▇▇▇ [754ms] - #0 Process Start
+      ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [4755ms] - #1 Application Start
+      ▇ [7ms] - #2 Load Plugin
+      ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [4430ms] - #3 Load Config
+      ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [4405ms] - #4 Require(0) config/config.default.ts
+                                             ▇ [1ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                             ▇ [1ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                             ▇ [0ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                             ▇ [1ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                             ▇ [0ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                             ▇ [1ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                             ▇ [0ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                             ▇ [0ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                             ▇ [0ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                             ▇ [0ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                             ▇ [1ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                             ▇ [1ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                             ▇ [1ms] - #17 Require(13) node_modules/egg/config/config.default.js
+                                             ▇ [0ms] - #18 Require(14) config/config.default.ts
+                                             ▇ [1ms] - #19 Require(15) node_modules/egg-security/config/config.local.js
+                                             ▇ [2ms] - #20 Require(16) node_modules/egg-watcher/config/config.local.js
+                                             ▇ [0ms] - #21 Require(17) node_modules/egg-view/config/config.local.js
+                                             ▇ [1ms] - #22 Require(18) node_modules/egg/config/config.local.js
+                                             ▇ [99ms] - #23 Load extend/agent.js
+                                             ▇ [1ms] - #24 Require(19) node_modules/egg-security/app/extend/agent.js
+                                             ▇ [94ms] - #25 Require(20) node_modules/egg-schedule/app/extend/agent.js
+                                              ▇ [1ms] - #26 Require(21) node_modules/egg-logrotator/app/extend/agent.js
+                                              ▇ [59ms] - #27 Load extend/context.js
+                                              ▇ [16ms] - #28 Require(22) node_modules/egg-security/app/extend/context.js
+                                              ▇ [3ms] - #29 Require(23) node_modules/egg-jsonp/app/extend/context.js
+                                              ▇ [1ms] - #30 Require(24) node_modules/egg-i18n/app/extend/context.js
+                                              ▇ [31ms] - #31 Require(25) node_modules/egg-multipart/app/extend/context.js
+                                               ▇ [1ms] - #32 Require(26) node_modules/egg-view/app/extend/context.js
+                                               ▇ [1ms] - #33 Require(27) node_modules/egg/app/extend/context.js
+                                               ▇ [40ms] - #34 Load agent.js
+                                               ▇ [2ms] - #35 Require(28) node_modules/egg-security/agent.js
+                                               ▇ [1ms] - #36 Require(29) node_modules/egg-onerror/agent.js
+                                               ▇ [13ms] - #37 Require(30) node_modules/egg-watcher/agent.js
+                                               ▇ [3ms] - #38 Require(31) node_modules/egg-schedule/agent.js
+                                               ▇ [18ms] - #39 Require(32) node_modules/egg-development/agent.js
+                                               ▇ [0ms] - #40 Require(33) node_modules/egg-logrotator/agent.js
+                                               ▇ [0ms] - #41 Require(34) node_modules/egg/agent.js
+                                               ▇ [84ms] - #42 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                               ▇ [63ms] - #43 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                               ▇ [92ms] - #44 Before Start in node_modules/egg-development/agent.js:8:9
+2024-11-27 17:26:18,874 INFO 74596 [egg:core] dump config after ready, 168ms
+2024-11-27 17:27:24,104 INFO 74596 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app/controller/user.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12888570683,"size":662,"blocks":8,"atimeMs":1732728444077.5432,"mtimeMs":1732728444041.8154,"ctimeMs":1732728444041.8154,"birthtimeMs":1732725134332.2922},"remove":false,"isDirectory":false,"isFile":true}
+2024-11-27 17:27:24,306 WARN 74596 [agent:development] reload worker because /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app/controller/user.ts change
+2024-11-27 17:27:53,915 INFO 75038 [egg:logger] init all loggers with options: {"dir":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/logs/studenthub","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"studenthub-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-11-27 17:27:53,931 INFO 75038 [egg:core] dump config after load, 12ms
+2024-11-27 17:27:53,976 INFO 75038 [egg-watcher] Start watching: ["/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"]
+2024-11-27 17:27:53,976 INFO 75038 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app"
+2024-11-27 17:27:53,976 INFO 75038 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config"
+2024-11-27 17:27:53,976 INFO 75038 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks"
+2024-11-27 17:27:53,976 INFO 75038 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy"
+2024-11-27 17:27:53,977 INFO 75038 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"
+2024-11-27 17:27:53,977 INFO 75038 [egg-watcher:agent] watcher start success
+2024-11-27 17:27:53,990 INFO 75038 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇ [719ms] - #0 Process Start
+          ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2770ms] - #1 Application Start
+          ▇ [8ms] - #2 Load Plugin
+          ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2583ms] - #3 Load Config
+          ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2570ms] - #4 Require(0) config/config.default.ts
+                                               ▇ [1ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                               ▇ [0ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                               ▇ [0ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                               ▇ [1ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                               ▇ [0ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                               ▇ [0ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                               ▇ [0ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                               ▇ [0ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                               ▇ [1ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                               ▇ [0ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                               ▇ [1ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                               ▇ [0ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                               ▇ [1ms] - #17 Require(13) node_modules/egg/config/config.default.js
+                                               ▇ [0ms] - #18 Require(14) config/config.default.ts
+                                               ▇ [1ms] - #19 Require(15) node_modules/egg-security/config/config.local.js
+                                               ▇ [1ms] - #20 Require(16) node_modules/egg-watcher/config/config.local.js
+                                               ▇ [1ms] - #21 Require(17) node_modules/egg-view/config/config.local.js
+                                               ▇ [0ms] - #22 Require(18) node_modules/egg/config/config.local.js
+                                               ▇ [56ms] - #23 Load extend/agent.js
+                                               ▇ [2ms] - #24 Require(19) node_modules/egg-security/app/extend/agent.js
+                                               ▇ [50ms] - #25 Require(20) node_modules/egg-schedule/app/extend/agent.js
+                                                ▇ [2ms] - #26 Require(21) node_modules/egg-logrotator/app/extend/agent.js
+                                                ▇ [19ms] - #27 Load extend/context.js
+                                                ▇ [6ms] - #28 Require(22) node_modules/egg-security/app/extend/context.js
+                                                ▇ [1ms] - #29 Require(23) node_modules/egg-jsonp/app/extend/context.js
+                                                ▇ [0ms] - #30 Require(24) node_modules/egg-i18n/app/extend/context.js
+                                                ▇ [8ms] - #31 Require(25) node_modules/egg-multipart/app/extend/context.js
+                                                ▇ [1ms] - #32 Require(26) node_modules/egg-view/app/extend/context.js
+                                                ▇ [1ms] - #33 Require(27) node_modules/egg/app/extend/context.js
+                                                ▇ [19ms] - #34 Load agent.js
+                                                ▇ [0ms] - #35 Require(28) node_modules/egg-security/agent.js
+                                                ▇ [0ms] - #36 Require(29) node_modules/egg-onerror/agent.js
+                                                ▇ [4ms] - #37 Require(30) node_modules/egg-watcher/agent.js
+                                                ▇ [2ms] - #38 Require(31) node_modules/egg-schedule/agent.js
+                                                ▇ [9ms] - #39 Require(32) node_modules/egg-development/agent.js
+                                                ▇ [1ms] - #40 Require(33) node_modules/egg-logrotator/agent.js
+                                                ▇ [1ms] - #41 Require(34) node_modules/egg/agent.js
+                                                ▇ [59ms] - #42 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                                ▇ [46ms] - #43 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                                ▇ [65ms] - #44 Before Start in node_modules/egg-development/agent.js:8:9
+2024-11-27 17:27:53,990 INFO 75038 [egg:core] dump config after ready, 5ms
+2024-11-27 17:32:29,212 WARN 75038 [agent:development] reload worker because /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app/controller/user.ts change
+2024-11-27 17:32:28,824 INFO 75038 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app/controller/user.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12888570683,"size":0,"blocks":0,"atimeMs":1732728446390.3503,"mtimeMs":1732728748755.6382,"ctimeMs":1732728748755.6382,"birthtimeMs":1732725134332.2922},"remove":false,"isDirectory":false,"isFile":true}
+2024-11-27 17:32:29,010 INFO 75038 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app/controller/user.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12888570683,"size":924,"blocks":8,"atimeMs":1732728749003.4785,"mtimeMs":1732728748957.3208,"ctimeMs":1732728748957.3208,"birthtimeMs":1732725134332.2922},"remove":false,"isDirectory":false,"isFile":true}
+2024-11-27 17:34:16,694 INFO 76716 [egg:logger] init all loggers with options: {"dir":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/logs/studenthub","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"studenthub-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-11-27 17:34:16,703 INFO 76716 [egg:core] dump config after load, 4ms
+2024-11-27 17:34:16,752 INFO 76716 [egg-watcher] Start watching: ["/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"]
+2024-11-27 17:34:16,752 INFO 76716 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app"
+2024-11-27 17:34:16,752 INFO 76716 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config"
+2024-11-27 17:34:16,752 INFO 76716 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks"
+2024-11-27 17:34:16,752 INFO 76716 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy"
+2024-11-27 17:34:16,752 INFO 76716 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"
+2024-11-27 17:34:16,753 INFO 76716 [egg-watcher:agent] watcher start success
+2024-11-27 17:34:16,776 INFO 76716 egg start timeline:
+▇▇▇▇▇▇▇▇ [777ms] - #0 Process Start
+        ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [3674ms] - #1 Application Start
+        ▇ [26ms] - #2 Load Plugin
+         ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [3433ms] - #3 Load Config
+         ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [3419ms] - #4 Require(0) config/config.default.ts
+                                               ▇ [0ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                               ▇ [0ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                               ▇ [0ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                               ▇ [0ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                               ▇ [1ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                               ▇ [0ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                               ▇ [0ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                               ▇ [1ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                               ▇ [0ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                               ▇ [1ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                               ▇ [0ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                               ▇ [1ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                               ▇ [0ms] - #17 Require(13) node_modules/egg/config/config.default.js
+                                               ▇ [0ms] - #18 Require(14) config/config.default.ts
+                                               ▇ [0ms] - #19 Require(15) node_modules/egg-security/config/config.local.js
+                                               ▇ [0ms] - #20 Require(16) node_modules/egg-watcher/config/config.local.js
+                                               ▇ [0ms] - #21 Require(17) node_modules/egg-view/config/config.local.js
+                                               ▇ [0ms] - #22 Require(18) node_modules/egg/config/config.local.js
+                                               ▇ [56ms] - #23 Load extend/agent.js
+                                               ▇ [2ms] - #24 Require(19) node_modules/egg-security/app/extend/agent.js
+                                               ▇ [50ms] - #25 Require(20) node_modules/egg-schedule/app/extend/agent.js
+                                                ▇ [2ms] - #26 Require(21) node_modules/egg-logrotator/app/extend/agent.js
+                                                ▇ [41ms] - #27 Load extend/context.js
+                                                ▇ [13ms] - #28 Require(22) node_modules/egg-security/app/extend/context.js
+                                                ▇ [2ms] - #29 Require(23) node_modules/egg-jsonp/app/extend/context.js
+                                                ▇ [1ms] - #30 Require(24) node_modules/egg-i18n/app/extend/context.js
+                                                ▇ [19ms] - #31 Require(25) node_modules/egg-multipart/app/extend/context.js
+                                                ▇ [2ms] - #32 Require(26) node_modules/egg-view/app/extend/context.js
+                                                ▇ [1ms] - #33 Require(27) node_modules/egg/app/extend/context.js
+                                                ▇ [22ms] - #34 Load agent.js
+                                                ▇ [1ms] - #35 Require(28) node_modules/egg-security/agent.js
+                                                ▇ [1ms] - #36 Require(29) node_modules/egg-onerror/agent.js
+                                                ▇ [6ms] - #37 Require(30) node_modules/egg-watcher/agent.js
+                                                ▇ [2ms] - #38 Require(31) node_modules/egg-schedule/agent.js
+                                                ▇ [9ms] - #39 Require(32) node_modules/egg-development/agent.js
+                                                 ▇ [0ms] - #40 Require(33) node_modules/egg-logrotator/agent.js
+                                                 ▇ [1ms] - #41 Require(34) node_modules/egg/agent.js
+                                                 ▇ [56ms] - #42 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                                 ▇ [40ms] - #43 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                                 ▇ [73ms] - #44 Before Start in node_modules/egg-development/agent.js:8:9
+2024-11-27 17:34:16,776 INFO 76716 [egg:core] dump config after ready, 4ms
+2024-11-27 17:35:52,260 INFO 77135 [egg:logger] init all loggers with options: {"dir":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/logs/studenthub","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"studenthub-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-11-27 17:35:52,268 INFO 77135 [egg:core] dump config after load, 3ms
+2024-11-27 17:35:52,317 INFO 77135 [egg-watcher] Start watching: ["/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"]
+2024-11-27 17:35:52,317 INFO 77135 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app"
+2024-11-27 17:35:52,318 INFO 77135 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config"
+2024-11-27 17:35:52,318 INFO 77135 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks"
+2024-11-27 17:35:52,318 INFO 77135 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy"
+2024-11-27 17:35:52,318 INFO 77135 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"
+2024-11-27 17:35:52,318 INFO 77135 [egg-watcher:agent] watcher start success
+2024-11-27 17:35:52,331 INFO 77135 egg start timeline:
+▇▇▇▇▇▇▇▇▇ [673ms] - #0 Process Start
+         ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [3040ms] - #1 Application Start
+         ▇ [7ms] - #2 Load Plugin
+         ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2824ms] - #3 Load Config
+         ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2811ms] - #4 Require(0) config/config.default.ts
+                                               ▇ [0ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                               ▇ [1ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                               ▇ [1ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                               ▇ [0ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                               ▇ [0ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                               ▇ [0ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                               ▇ [1ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                               ▇ [0ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                               ▇ [0ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                               ▇ [0ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                               ▇ [0ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                               ▇ [0ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                               ▇ [0ms] - #17 Require(13) node_modules/egg/config/config.default.js
+                                               ▇ [1ms] - #18 Require(14) config/config.default.ts
+                                               ▇ [0ms] - #19 Require(15) node_modules/egg-security/config/config.local.js
+                                               ▇ [0ms] - #20 Require(16) node_modules/egg-watcher/config/config.local.js
+                                               ▇ [1ms] - #21 Require(17) node_modules/egg-view/config/config.local.js
+                                               ▇ [0ms] - #22 Require(18) node_modules/egg/config/config.local.js
+                                               ▇ [57ms] - #23 Load extend/agent.js
+                                               ▇ [3ms] - #24 Require(19) node_modules/egg-security/app/extend/agent.js
+                                               ▇ [48ms] - #25 Require(20) node_modules/egg-schedule/app/extend/agent.js
+                                               ▇ [3ms] - #26 Require(21) node_modules/egg-logrotator/app/extend/agent.js
+                                                ▇ [50ms] - #27 Load extend/context.js
+                                                ▇ [23ms] - #28 Require(22) node_modules/egg-security/app/extend/context.js
+                                                ▇ [3ms] - #29 Require(23) node_modules/egg-jsonp/app/extend/context.js
+                                                ▇ [1ms] - #30 Require(24) node_modules/egg-i18n/app/extend/context.js
+                                                ▇ [18ms] - #31 Require(25) node_modules/egg-multipart/app/extend/context.js
+                                                ▇ [1ms] - #32 Require(26) node_modules/egg-view/app/extend/context.js
+                                                ▇ [1ms] - #33 Require(27) node_modules/egg/app/extend/context.js
+                                                ▇ [22ms] - #34 Load agent.js
+                                                ▇ [1ms] - #35 Require(28) node_modules/egg-security/agent.js
+                                                ▇ [1ms] - #36 Require(29) node_modules/egg-onerror/agent.js
+                                                ▇ [6ms] - #37 Require(30) node_modules/egg-watcher/agent.js
+                                                ▇ [2ms] - #38 Require(31) node_modules/egg-schedule/agent.js
+                                                ▇ [10ms] - #39 Require(32) node_modules/egg-development/agent.js
+                                                ▇ [1ms] - #40 Require(33) node_modules/egg-logrotator/agent.js
+                                                 ▇ [1ms] - #41 Require(34) node_modules/egg/agent.js
+                                                 ▇ [56ms] - #42 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                                 ▇ [40ms] - #43 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                                 ▇ [60ms] - #44 Before Start in node_modules/egg-development/agent.js:8:9
+2024-11-27 17:35:52,331 INFO 77135 [egg:core] dump config after ready, 5ms
+2024-11-27 17:36:53,003 INFO 77406 [egg:logger] init all loggers with options: {"dir":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/logs/studenthub","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"studenthub-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-11-27 17:36:53,014 INFO 77406 [egg:core] dump config after load, 5ms
+2024-11-27 17:36:53,067 INFO 77406 [egg-watcher] Start watching: ["/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"]
+2024-11-27 17:36:53,067 INFO 77406 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app"
+2024-11-27 17:36:53,069 INFO 77406 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config"
+2024-11-27 17:36:53,069 INFO 77406 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks"
+2024-11-27 17:36:53,069 INFO 77406 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy"
+2024-11-27 17:36:53,069 INFO 77406 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"
+2024-11-27 17:36:53,070 INFO 77406 [egg-watcher:agent] watcher start success
+2024-11-27 17:36:53,084 INFO 77406 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇▇ [1185ms] - #0 Process Start
+            ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [3431ms] - #1 Application Start
+             ▇ [16ms] - #2 Load Plugin
+             ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [3222ms] - #3 Load Config
+             ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [3206ms] - #4 Require(0) config/config.default.ts
+                                               ▇ [1ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                               ▇ [0ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                               ▇ [1ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                               ▇ [0ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                               ▇ [0ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                                ▇ [1ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                                ▇ [0ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                                ▇ [1ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                                ▇ [0ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                                ▇ [0ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                                ▇ [0ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                                ▇ [0ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                                ▇ [0ms] - #17 Require(13) node_modules/egg/config/config.default.js
+                                                ▇ [0ms] - #18 Require(14) config/config.default.ts
+                                                ▇ [1ms] - #19 Require(15) node_modules/egg-security/config/config.local.js
+                                                ▇ [1ms] - #20 Require(16) node_modules/egg-watcher/config/config.local.js
+                                                ▇ [0ms] - #21 Require(17) node_modules/egg-view/config/config.local.js
+                                                ▇ [0ms] - #22 Require(18) node_modules/egg/config/config.local.js
+                                                ▇ [47ms] - #23 Load extend/agent.js
+                                                ▇ [0ms] - #24 Require(19) node_modules/egg-security/app/extend/agent.js
+                                                ▇ [42ms] - #25 Require(20) node_modules/egg-schedule/app/extend/agent.js
+                                                ▇ [0ms] - #26 Require(21) node_modules/egg-logrotator/app/extend/agent.js
+                                                ▇ [20ms] - #27 Load extend/context.js
+                                                ▇ [5ms] - #28 Require(22) node_modules/egg-security/app/extend/context.js
+                                                ▇ [1ms] - #29 Require(23) node_modules/egg-jsonp/app/extend/context.js
+                                                ▇ [0ms] - #30 Require(24) node_modules/egg-i18n/app/extend/context.js
+                                                ▇ [9ms] - #31 Require(25) node_modules/egg-multipart/app/extend/context.js
+                                                ▇ [1ms] - #32 Require(26) node_modules/egg-view/app/extend/context.js
+                                                ▇ [1ms] - #33 Require(27) node_modules/egg/app/extend/context.js
+                                                ▇ [19ms] - #34 Load agent.js
+                                                ▇ [0ms] - #35 Require(28) node_modules/egg-security/agent.js
+                                                ▇ [3ms] - #36 Require(29) node_modules/egg-onerror/agent.js
+                                                ▇ [4ms] - #37 Require(30) node_modules/egg-watcher/agent.js
+                                                ▇ [3ms] - #38 Require(31) node_modules/egg-schedule/agent.js
+                                                 ▇ [4ms] - #39 Require(32) node_modules/egg-development/agent.js
+                                                 ▇ [1ms] - #40 Require(33) node_modules/egg-logrotator/agent.js
+                                                 ▇ [1ms] - #41 Require(34) node_modules/egg/agent.js
+                                                 ▇ [63ms] - #42 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                                 ▇ [50ms] - #43 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                                 ▇ [69ms] - #44 Before Start in node_modules/egg-development/agent.js:8:9
+2024-11-27 17:36:53,084 INFO 77406 [egg:core] dump config after ready, 3ms
+2024-11-27 17:38:37,625 WARN 77406 [agent:development] reload worker because /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config/config.default.ts change
+2024-11-27 17:38:37,422 INFO 77406 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config/config.default.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12888570715,"size":780,"blocks":8,"atimeMs":1732729117397.0618,"mtimeMs":1732729117357.2424,"ctimeMs":1732729117357.2424,"birthtimeMs":1732725173652.9866},"remove":false,"isDirectory":false,"isFile":true}
+2024-11-27 17:39:11,860 INFO 78037 [egg:logger] init all loggers with options: {"dir":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/logs/studenthub","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"studenthub-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-11-27 17:39:11,868 INFO 78037 [egg:core] dump config after load, 4ms
+2024-11-27 17:39:11,917 INFO 78037 [egg-watcher] Start watching: ["/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"]
+2024-11-27 17:39:11,917 INFO 78037 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app"
+2024-11-27 17:39:11,917 INFO 78037 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config"
+2024-11-27 17:39:11,917 INFO 78037 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks"
+2024-11-27 17:39:11,917 INFO 78037 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy"
+2024-11-27 17:39:11,918 INFO 78037 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"
+2024-11-27 17:39:11,918 INFO 78037 [egg-watcher:agent] watcher start success
+2024-11-27 17:39:11,932 INFO 78037 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇ [725ms] - #0 Process Start
+          ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2892ms] - #1 Application Start
+          ▇ [8ms] - #2 Load Plugin
+          ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2698ms] - #3 Load Config
+          ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2684ms] - #4 Require(0) config/config.default.ts
+                                               ▇ [0ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                               ▇ [0ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                               ▇ [0ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                               ▇ [0ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                               ▇ [0ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                               ▇ [1ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                               ▇ [0ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                               ▇ [1ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                               ▇ [1ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                               ▇ [1ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                               ▇ [0ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                               ▇ [1ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                               ▇ [0ms] - #17 Require(13) node_modules/egg/config/config.default.js
+                                               ▇ [0ms] - #18 Require(14) config/config.default.ts
+                                               ▇ [1ms] - #19 Require(15) node_modules/egg-security/config/config.local.js
+                                               ▇ [0ms] - #20 Require(16) node_modules/egg-watcher/config/config.local.js
+                                               ▇ [0ms] - #21 Require(17) node_modules/egg-view/config/config.local.js
+                                               ▇ [0ms] - #22 Require(18) node_modules/egg/config/config.local.js
+                                               ▇ [64ms] - #23 Load extend/agent.js
+                                               ▇ [2ms] - #24 Require(19) node_modules/egg-security/app/extend/agent.js
+                                               ▇ [57ms] - #25 Require(20) node_modules/egg-schedule/app/extend/agent.js
+                                                ▇ [2ms] - #26 Require(21) node_modules/egg-logrotator/app/extend/agent.js
+                                                ▇ [20ms] - #27 Load extend/context.js
+                                                ▇ [6ms] - #28 Require(22) node_modules/egg-security/app/extend/context.js
+                                                ▇ [1ms] - #29 Require(23) node_modules/egg-jsonp/app/extend/context.js
+                                                ▇ [0ms] - #30 Require(24) node_modules/egg-i18n/app/extend/context.js
+                                                ▇ [9ms] - #31 Require(25) node_modules/egg-multipart/app/extend/context.js
+                                                ▇ [1ms] - #32 Require(26) node_modules/egg-view/app/extend/context.js
+                                                ▇ [1ms] - #33 Require(27) node_modules/egg/app/extend/context.js
+                                                ▇ [19ms] - #34 Load agent.js
+                                                ▇ [0ms] - #35 Require(28) node_modules/egg-security/agent.js
+                                                ▇ [0ms] - #36 Require(29) node_modules/egg-onerror/agent.js
+                                                ▇ [4ms] - #37 Require(30) node_modules/egg-watcher/agent.js
+                                                ▇ [2ms] - #38 Require(31) node_modules/egg-schedule/agent.js
+                                                ▇ [9ms] - #39 Require(32) node_modules/egg-development/agent.js
+                                                ▇ [1ms] - #40 Require(33) node_modules/egg-logrotator/agent.js
+                                                ▇ [1ms] - #41 Require(34) node_modules/egg/agent.js
+                                                 ▇ [55ms] - #42 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                                 ▇ [39ms] - #43 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                                 ▇ [61ms] - #44 Before Start in node_modules/egg-development/agent.js:8:9
+2024-11-27 17:39:11,932 INFO 78037 [egg:core] dump config after ready, 6ms
+2024-11-27 17:41:09,549 WARN 78037 [agent:development] reload worker because /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config/config.default.ts change
+2024-11-27 17:41:09,345 INFO 78037 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config/config.default.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12888570715,"size":752,"blocks":8,"atimeMs":1732729269339.2798,"mtimeMs":1732729269278.7107,"ctimeMs":1732729269278.7107,"birthtimeMs":1732725173652.9866},"remove":false,"isDirectory":false,"isFile":true}
+2024-11-27 17:41:23,332 INFO 78928 [egg:logger] init all loggers with options: {"dir":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/logs/studenthub","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"studenthub-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-11-27 17:41:23,341 INFO 78928 [egg:core] dump config after load, 4ms
+2024-11-27 17:41:23,396 INFO 78928 [egg-watcher] Start watching: ["/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"]
+2024-11-27 17:41:23,396 INFO 78928 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app"
+2024-11-27 17:41:23,396 INFO 78928 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config"
+2024-11-27 17:41:23,396 INFO 78928 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks"
+2024-11-27 17:41:23,397 INFO 78928 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy"
+2024-11-27 17:41:23,397 INFO 78928 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"
+2024-11-27 17:41:23,397 INFO 78928 [egg-watcher:agent] watcher start success
+2024-11-27 17:41:23,420 INFO 78928 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇ [1036ms] - #0 Process Start
+           ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [3381ms] - #1 Application Start
+           ▇ [7ms] - #2 Load Plugin
+           ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [3156ms] - #3 Load Config
+           ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [3140ms] - #4 Require(0) config/config.default.ts
+                                               ▇ [1ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                               ▇ [0ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                               ▇ [0ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                               ▇ [1ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                               ▇ [0ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                               ▇ [0ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                               ▇ [0ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                               ▇ [0ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                               ▇ [1ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                               ▇ [0ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                               ▇ [1ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                               ▇ [0ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                               ▇ [1ms] - #17 Require(13) node_modules/egg/config/config.default.js
+                                               ▇ [0ms] - #18 Require(14) config/config.default.ts
+                                               ▇ [1ms] - #19 Require(15) node_modules/egg-security/config/config.local.js
+                                               ▇ [0ms] - #20 Require(16) node_modules/egg-watcher/config/config.local.js
+                                               ▇ [0ms] - #21 Require(17) node_modules/egg-view/config/config.local.js
+                                               ▇ [1ms] - #22 Require(18) node_modules/egg/config/config.local.js
+                                               ▇ [54ms] - #23 Load extend/agent.js
+                                               ▇ [2ms] - #24 Require(19) node_modules/egg-security/app/extend/agent.js
+                                               ▇ [47ms] - #25 Require(20) node_modules/egg-schedule/app/extend/agent.js
+                                                ▇ [1ms] - #26 Require(21) node_modules/egg-logrotator/app/extend/agent.js
+                                                ▇ [42ms] - #27 Load extend/context.js
+                                                ▇ [13ms] - #28 Require(22) node_modules/egg-security/app/extend/context.js
+                                                ▇ [2ms] - #29 Require(23) node_modules/egg-jsonp/app/extend/context.js
+                                                ▇ [0ms] - #30 Require(24) node_modules/egg-i18n/app/extend/context.js
+                                                ▇ [20ms] - #31 Require(25) node_modules/egg-multipart/app/extend/context.js
+                                                ▇ [2ms] - #32 Require(26) node_modules/egg-view/app/extend/context.js
+                                                ▇ [2ms] - #33 Require(27) node_modules/egg/app/extend/context.js
+                                                ▇ [24ms] - #34 Load agent.js
+                                                ▇ [1ms] - #35 Require(28) node_modules/egg-security/agent.js
+                                                ▇ [1ms] - #36 Require(29) node_modules/egg-onerror/agent.js
+                                                ▇ [8ms] - #37 Require(30) node_modules/egg-watcher/agent.js
+                                                ▇ [2ms] - #38 Require(31) node_modules/egg-schedule/agent.js
+                                                ▇ [10ms] - #39 Require(32) node_modules/egg-development/agent.js
+                                                ▇ [0ms] - #40 Require(33) node_modules/egg-logrotator/agent.js
+                                                ▇ [1ms] - #41 Require(34) node_modules/egg/agent.js
+                                                 ▇ [64ms] - #42 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                                 ▇ [43ms] - #43 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                                 ▇ [77ms] - #44 Before Start in node_modules/egg-development/agent.js:8:9
+2024-11-27 17:41:23,420 INFO 78928 [egg:core] dump config after ready, 4ms
+2024-11-27 17:50:03,508 WARN 78928 [agent:development] reload worker because /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app/controller/user.ts change
+2024-11-27 17:50:03,300 INFO 78928 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app/controller/user.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12888570683,"size":618,"blocks":8,"atimeMs":1732729803263.3008,"mtimeMs":1732729803235.283,"ctimeMs":1732729803235.283,"birthtimeMs":1732725134332.2922},"remove":false,"isDirectory":false,"isFile":true}
+2024-11-27 17:52:21,444 INFO 81535 [egg:logger] init all loggers with options: {"dir":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/logs/studenthub","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"studenthub-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-11-27 17:52:21,453 INFO 81535 [egg:core] dump config after load, 5ms
+2024-11-27 17:52:21,507 INFO 81535 [egg-watcher] Start watching: ["/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy","/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"]
+2024-11-27 17:52:21,507 INFO 81535 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app"
+2024-11-27 17:52:21,507 INFO 81535 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config"
+2024-11-27 17:52:21,507 INFO 81535 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks"
+2024-11-27 17:52:21,508 INFO 81535 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/mocks_proxy"
+2024-11-27 17:52:21,508 INFO 81535 [egg-watcher] Start watching: "/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/app.js"
+2024-11-27 17:52:21,508 INFO 81535 [egg-watcher:agent] watcher start success
+2024-11-27 17:52:21,523 INFO 81535 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇ [774ms] - #0 Process Start
+          ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [3025ms] - #1 Application Start
+          ▇ [8ms] - #2 Load Plugin
+          ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2805ms] - #3 Load Config
+          ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2791ms] - #4 Require(0) config/config.default.ts
+                                               ▇ [0ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                               ▇ [0ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                               ▇ [0ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                               ▇ [0ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                               ▇ [1ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                               ▇ [0ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                               ▇ [1ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                               ▇ [0ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                               ▇ [0ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                               ▇ [0ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                               ▇ [0ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                               ▇ [0ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                               ▇ [0ms] - #17 Require(13) node_modules/egg/config/config.default.js
+                                               ▇ [0ms] - #18 Require(14) config/config.default.ts
+                                               ▇ [0ms] - #19 Require(15) node_modules/egg-security/config/config.local.js
+                                               ▇ [0ms] - #20 Require(16) node_modules/egg-watcher/config/config.local.js
+                                               ▇ [0ms] - #21 Require(17) node_modules/egg-view/config/config.local.js
+                                               ▇ [1ms] - #22 Require(18) node_modules/egg/config/config.local.js
+                                               ▇ [56ms] - #23 Load extend/agent.js
+                                               ▇ [2ms] - #24 Require(19) node_modules/egg-security/app/extend/agent.js
+                                               ▇ [50ms] - #25 Require(20) node_modules/egg-schedule/app/extend/agent.js
+                                                ▇ [1ms] - #26 Require(21) node_modules/egg-logrotator/app/extend/agent.js
+                                                ▇ [43ms] - #27 Load extend/context.js
+                                                ▇ [13ms] - #28 Require(22) node_modules/egg-security/app/extend/context.js
+                                                ▇ [2ms] - #29 Require(23) node_modules/egg-jsonp/app/extend/context.js
+                                                ▇ [1ms] - #30 Require(24) node_modules/egg-i18n/app/extend/context.js
+                                                ▇ [23ms] - #31 Require(25) node_modules/egg-multipart/app/extend/context.js
+                                                ▇ [2ms] - #32 Require(26) node_modules/egg-view/app/extend/context.js
+                                                ▇ [1ms] - #33 Require(27) node_modules/egg/app/extend/context.js
+                                                ▇ [23ms] - #34 Load agent.js
+                                                ▇ [0ms] - #35 Require(28) node_modules/egg-security/agent.js
+                                                ▇ [1ms] - #36 Require(29) node_modules/egg-onerror/agent.js
+                                                ▇ [7ms] - #37 Require(30) node_modules/egg-watcher/agent.js
+                                                ▇ [2ms] - #38 Require(31) node_modules/egg-schedule/agent.js
+                                                ▇ [10ms] - #39 Require(32) node_modules/egg-development/agent.js
+                                                ▇ [0ms] - #40 Require(33) node_modules/egg-logrotator/agent.js
+                                                ▇ [0ms] - #41 Require(34) node_modules/egg/agent.js
+                                                 ▇ [61ms] - #42 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                                 ▇ [44ms] - #43 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                                 ▇ [69ms] - #44 Before Start in node_modules/egg-development/agent.js:8:9
+2024-11-27 17:52:21,523 INFO 81535 [egg:core] dump config after ready, 5ms
+2024-11-27 17:55:21,601 WARN 81535 [agent:development] reload worker because /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config/config.default.ts change
+2024-11-27 17:55:21,397 INFO 81535 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config/config.default.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12888570715,"size":868,"blocks":8,"atimeMs":1732730121361.688,"mtimeMs":1732730121333.9998,"ctimeMs":1732730121333.9998,"birthtimeMs":1732725173652.9866},"remove":false,"isDirectory":false,"isFile":true}
+2024-11-27 17:55:22,601 WARN 81535 [agent:development] reload worker because /Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config/config.default.ts change
+2024-11-27 17:55:22,348 INFO 81535 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config/config.default.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12888570715,"size":868,"blocks":8,"atimeMs":1732730121763.6023,"mtimeMs":1732730122337.3044,"ctimeMs":1732730122337.3044,"birthtimeMs":1732725173652.9866},"remove":false,"isDirectory":false,"isFile":true}
+2024-11-27 17:55:22,398 INFO 81535 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/JunhanDang/Desktop/Year4/FYP/StudentHub/config/config.default.ts","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12888570715,"size":868,"blocks":8,"atimeMs":1732730121763.6023,"mtimeMs":1732730122337.3044,"ctimeMs":1732730122337.3044,"birthtimeMs":1732725173652.9866},"remove":false,"isDirectory":false,"isFile":true}

@@ -136,7 +136,7 @@ export default function MapScreen() {
             placeholder="🔍 Please Search the  location"
             onPress={handlePlaceSelect}
             fetchDetails
-            query={{ key: 'AIzaSyBOFX-s1U4ecCA0Locjh5Eia5bbnUigpm8', language: 'en' }}
+            query={{ key: 'Your_API_KEY', language: 'en' }}
             styles={{
               container: { position: 'absolute', top: 50, width: '90%', alignSelf: 'center', zIndex: 1 },
               textInput: { height: 40, borderRadius: 8, paddingHorizontal: 10, fontSize: 14 },

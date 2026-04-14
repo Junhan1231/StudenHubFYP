@@ -8,5 +8,8 @@ StudentHub is a mobile app designed to help students connect and share experienc
 - 👥 Follow & comment system
 - 📱 Built with React Native + Firebase
 
-## Getting Started
+## Getting Started with work Screen shot
+
+### Home Page
+![Home Page](./StudentHubScreenshots/SplashPage.jpg)
 

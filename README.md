@@ -23,5 +23,5 @@ StudentHub is a mobile app designed to help students connect and share experienc
 
 
 ### Article Page
-![Home Page](./StudentHubScreenshots/Article_Details.jpg)
+![Home Page](./StudentHubScreenshots/ArticleDetails.jpg)
 
